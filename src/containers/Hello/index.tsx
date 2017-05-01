@@ -25,23 +25,23 @@ class comp extends React.Component <IAppProps, any> {
   };
 
   componentDidMount() {
-    this.props.actions.sayHello("OLA")
+    this.props.actions.sayHello("")
   };
 
   render() {
     return (
       <div>
-        Say something :
-        {
-          this.props.text
-        }
-        {
-          this.props.count
-        }
+        Hi, im just dummy who says hello, whats your name ?
+        <br/>
+        <br/>
         <input
+          className="pt-input"
           type="text"
           onChange={this.handleTalking}
         />
+        <br/>
+        <br/>
+        {this.props.text && <h1>Hello {this.props.text}</h1>}
       </div>
     );
   }

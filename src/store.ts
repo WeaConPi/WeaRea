@@ -3,22 +3,26 @@
  */
 import { applyMiddleware, createStore, Store } from "redux";
 import rootReducer, { RootState } from "./reducers";
+import { createEpicMiddleware } from "redux-observable";
+import rootEpics from "./epics";
 
 export function configureStore(initialState?: RootState): Store<RootState> {
-    const create = (window as any).devToolsExtension
-        ? (window as any).devToolsExtension()(createStore)
-        : createStore;
+  const create = (window as any).devToolsExtension
+    ? (window as any).devToolsExtension()(createStore)
+    : createStore;
 
-    const createStoreWithMiddleware = applyMiddleware()(create);
+  const epicMiddleware = createEpicMiddleware(rootEpics)
 
-    const store = createStoreWithMiddleware(rootReducer, initialState) as Store<RootState>;
+  const createStoreWithMiddleware = applyMiddleware(epicMiddleware as any)(create);
 
-    if (module.hot) {
-        module.hot.accept('./reducers', () => {
-            const nextReducer = require('./reducers');
-            store.replaceReducer(nextReducer);
-        });
-    }
+  const store = createStoreWithMiddleware(rootReducer, initialState) as Store<RootState>;
 
-    return store;
+  if (module.hot) {
+    module.hot.accept('./reducers', () => {
+      const nextReducer = require('./reducers');
+      store.replaceReducer(nextReducer);
+    });
+  }
+
+  return store;
 }
