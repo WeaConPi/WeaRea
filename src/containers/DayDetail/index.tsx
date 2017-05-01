@@ -6,7 +6,7 @@ import { IDayDetailReducer as ReducerInterface } from "./reducer";
 import * as React from "react";
 import { HourDetail } from "../../components/HourDetail/index";
 import { DayDetailInfo } from "../../components/DayDetailInfo/index";
-import moment = require("moment");
+import * as moment from "moment";
 
 interface IAppProps extends ReducerInterface {
   actions: actions.IActions;
@@ -30,7 +30,7 @@ class comp extends React.Component <IAppProps, any> {
   };
 
   handleChangeDate = (newDate) =>
-    this.props.actions.fetchDay(moment(newDate));
+    this.props.actions.fetchDay(moment(newDate))
 
   handleHourChange = (hour) => () =>
     this.props.actions.selectHour(hour)

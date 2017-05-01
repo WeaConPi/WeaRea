@@ -1,7 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
 import { ISensor } from "../../models/Sensor";
-import moment = require("moment");
 
 const StyledSensor = styled.div`
   margin: 0.5em;

@@ -2,7 +2,7 @@ import * as React from "react";
 import { IDay } from "../../models/Day";
 import { DateInput } from "@blueprintjs/datetime";
 import styled from "styled-components";
-import moment = require("moment");
+import * as moment from "moment";
 
 const StyledDay = styled.div`
 padding: 0.5em;

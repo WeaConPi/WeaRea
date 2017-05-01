@@ -3,7 +3,7 @@ import { IDay } from "../../models/Day";
 import { IHour } from "../../models/Hour";
 import { Map } from "immutable";
 import { Moment } from "moment";
-import moment = require("moment");
+import * as moment from "moment";
 /**
  * Created by Farmas on 26.04.2017.
  */

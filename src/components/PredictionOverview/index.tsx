@@ -1,7 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
 import { IPrediction } from "../../models/Hour";
-import moment = require("moment");
 
 const StyledRow = styled.div`
 display: flex;
