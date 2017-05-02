@@ -7,6 +7,12 @@ import * as React from "react";
 import { HourDetail } from "../../components/HourDetail/index";
 import { DayDetailInfo } from "../../components/DayDetailInfo/index";
 import * as moment from "moment";
+import { DayCharts } from "../../components/DayCharts/index";
+import styled from "styled-components";
+
+const StyledBody= styled.div`
+display:flex;
+`
 
 interface IAppProps extends ReducerInterface {
   actions: actions.IActions;
@@ -47,10 +53,18 @@ class comp extends React.Component <IAppProps, any> {
     return (
       <div>
         <DayDetailInfo day={this.props.day} handleDateChange={this.handleChangeDate}/>
+        <StyledBody>
+        <div>
         <br/>
         {this.renderLine()}
-        <HourDetail hour={this.props.hours.get(this.props.selectedHour)}/>
-      </div>
+        <HourDetail loading={this.props.loading} hour={this.props.hours.get(this.props.selectedHour)}/>
+        </div>
+        <div>
+          <h2>Daily summary </h2>
+        <DayCharts  hours={this.props.hours}/>
+        </div>
+      </StyledBody>
+     </div>
     );
   }
 }

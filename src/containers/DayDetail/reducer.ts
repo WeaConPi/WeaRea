@@ -12,12 +12,14 @@ export interface IDayDetailReducer {
   day: IDay;
   hours: Map<number, IHour>;
   selectedHour: number;
+  loading: boolean;
 }
 const initialState: IDayDetailReducer = {
   date: moment(),
   selectedHour: 0,
   day: {} as IDay,
   hours: Map() as Map<number, IHour>,
+  loading:false,
 }
 export const dayDetailReducer = (state = initialState, action): IDayDetailReducer => {
   switch (action.type) {
@@ -34,11 +36,11 @@ export const dayDetailReducer = (state = initialState, action): IDayDetailReduce
       return initialState;
     }
     case FETCH_HOURS_FOR_DAY: {
-      return {...state};
+      return {...state, loading:true};
     }
     case `${FETCH_HOURS_FOR_DAY}_FULFILLED`: {
       const mappedHours = Map(action.response.map(hour => [hour.number, hour])) as Map<number, IHour>
-      return {...state, hours: mappedHours};
+      return {...state, hours: mappedHours,loading:false};
 
     }
     case `${FETCH_HOURS_FOR_DAY}_REJECTED`: {

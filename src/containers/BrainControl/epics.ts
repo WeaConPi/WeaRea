@@ -9,7 +9,7 @@ export const fetchCalculationResult = (action, store) =>
   action.ofType(BRAIN_CALCULATE_PREDICTION)
     .switchMap(action =>
       Observable.ajax(
-        doIt(hosts.weanen, `calculate?day=${
+        doIt(hosts.weacore, `get-brain-calculation?day=${
           action.day}&month=${action.month}&hour=${
           action.hour}&temp=${action.temperature}&houseTemp=${
          action.houseTemp}`, 'GET'))

@@ -5,10 +5,15 @@ import * as actions from "./actions";
 import { RootState } from "../../reducers";
 import { IBrainControlReducer } from "./reducer";
 import * as React from "react";
+import { PredictionOverview } from "../../components/PredictionOverview/index";
+import styled  from "styled-components";
 
 interface IAppProps extends IBrainControlReducer {
   actions: actions.IActions;
 }
+const StyledBrainBody = styled.div`
+display:flex
+`
 
 const mapStateToProps = ({brainControlReducer}: RootState) => ({
   ...brainControlReducer,
@@ -38,6 +43,8 @@ class comp extends React.Component <IAppProps, any> {
         <h2>Test my brain, see what i can do</h2>
         <br/>
         <br/>
+        <StyledBrainBody>
+          <div>
         <div className="pt-form-group">
           <label className="pt-label">
             Month
@@ -113,9 +120,15 @@ class comp extends React.Component <IAppProps, any> {
             />
           </div>
         </div>
-        <button className='pt-button'
+        <button className={`pt-button ${this.props.loading && 'pt-skeleton'}`}
                 onClick={this.testBrain}>Test it !
         </button>
+          </div>
+        {this.props.prediction.heat &&<div>
+          <h4>Results</h4>
+          <PredictionOverview loading={this.props.loading} prediction={this.props.prediction}/>
+        </div>}
+      </StyledBrainBody>
       </div>
     );
   }
