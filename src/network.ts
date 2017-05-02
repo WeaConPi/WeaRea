@@ -1,20 +1,20 @@
 export const weaPerHost = process.env.weaper || 'http://localhost:3000'
-export const weaNenHost = process.env.weanen || 'http://localhost:5000'
+export const weaCoreHost = process.env.weacore || 'http://localhost:5000'
 
 export const hosts = {
 
   weaper: weaPerHost,
-  weanen: weaNenHost
+  weacore: weaCoreHost
 
 };
 
 const defaultHeader = (json, body) => ({
   async: true,
-  crossDomain: false,
+  crossDomain: true,
   headers: {
     'cache-control': 'no-cache',
     'Content-Type': `${json
-      ? 'application/json'
+      ? 'application/json' 
       : 'application/x-www-form-urlencoded; charset=UTF-8'}`
   },
   processData: false,
