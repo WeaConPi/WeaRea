@@ -74,6 +74,7 @@ module.exports = {
     ],
   },
   plugins: [
+    new webpack.EnvironmentPlugin(['NODE_ENV','weaper','weacore']),
     new webpack.LoaderOptionsPlugin({
       options: {
         context: sourcePath,
