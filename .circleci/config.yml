@@ -42,5 +42,5 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               git push heroku master
-              heroku run yarn start
+              heroku restart
             fi
