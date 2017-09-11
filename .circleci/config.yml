@@ -27,6 +27,11 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
+      - run: cd ReaGQL
+      - run: yarn install
+      - run: yarn build
+      - run: cd ..
+
 
       - save_cache:
           paths:
