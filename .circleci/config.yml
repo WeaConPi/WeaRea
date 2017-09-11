@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/repo/ReaGQL
+    working_directory: ~/repo
 
     steps:
       - checkout
@@ -26,7 +26,8 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install
+      - run: cd ReaGQL && yarn install && yarn build
+      - run: cd WeaRea && yarn install && yarn build
 
       - save_cache:
           paths:
