@@ -3,10 +3,9 @@
  */
 
 const path = require('path');
-const express = require('express');
+import * as express from "express";
 const app = express();
-const PORT = process.env.PORT || 8080;
-let router = express.Router();
+const PORT =(process.env.PORT || 8080)
 
 app.use('/ReaRest/',express.static(path.join(__dirname, 'ReaRest/dist')));
 app.get('/ReaRest/*', function(request, response) {
@@ -16,6 +15,10 @@ app.get('/ReaRest/*', function(request, response) {
 app.use('/ReaGQL/',express.static(path.join(__dirname, 'ReaGQL/build')));
 app.get('/ReaGQL/*', function(request, response) {
   response.sendFile(path.join(__dirname,'ReaGQL/build/index.html'));
+});
+
+app.get('/hello', (request, response) => {
+    response.send("Hello")
 });
 
 app.listen(PORT, error => {
