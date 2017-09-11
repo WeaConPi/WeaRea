@@ -1,4 +1,3 @@
-///<reference path="../../../node_modules/@types/react-redux/index.d.ts"/>
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import * as actions from "./actions";
@@ -42,7 +41,7 @@ class comp extends React.Component <IAppProps, any> {
               <div className="pt-navbar-heading">WeaConPi</div>
             </div>
             <div className="pt-navbar-group pt-align-right">
-              <Link to="/">
+              <Link to="/ReaRest">
                 <button className="pt-button pt-minimal pt-icon-home">Home</button>
               </Link>
               <Link to="/weanen-test">
@@ -59,7 +58,7 @@ class comp extends React.Component <IAppProps, any> {
           <Container className={this.props.themeStyle}>
             <Switch>
               <Route exact path="/hello" component={Hello as any}/>
-              <Route exact path="/" component={DayDetail as any}/>
+              <Route exact path="/ReaRest" component={DayDetail as any}/>
               <Route exact path="/weanen-test" component={BrainControl as any}/>
             </Switch>
           </Container>
