@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: cd ReaGQL && yarn install && yarn build
-      - run: cd WeaRea && yarn install && yarn build
+#      - run: cd WeaRea && yarn install && yarn build
 
       - save_cache:
           paths:
