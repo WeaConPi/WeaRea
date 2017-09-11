@@ -34,15 +34,15 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-  deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: wearea
-
-workflows:
-  version: 2
-  build_and_deploy:
-    jobs:
-      - build
-      - deployment
+       - run: bash .circleci/setup-heroku.sh
+        - add_ssh_keys:
+            fingerprints:
+              - "4cJdeyvhhAmxRO/y0HaMiLAGA5gjnhc6Dv+Rk1oy34A Farmas@Farmas-PC"
+        - deploy:
+            name: Deploy Master to Heroku
+            command: |
+              if [ "${CIRCLE_BRANCH}" == "master" ]; then
+                git push heroku master
+                heroku run python manage.py deploy
+                heroku restart
+              fi
