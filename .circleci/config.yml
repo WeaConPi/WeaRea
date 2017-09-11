@@ -34,8 +34,15 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: wearea
+  deployment:
+    staging:
+      branch: master
+      heroku:
+        appname: wearea
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deployment
