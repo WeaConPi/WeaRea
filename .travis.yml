@@ -12,7 +12,7 @@ jobs:
     - stage: ReaRest
       script: cd ReaRest && yarn install && yarn build
     - stage: rooter
-      script: yarn install && yarn build
+      script: yarn install 
 
 deploy:
   provider: heroku
