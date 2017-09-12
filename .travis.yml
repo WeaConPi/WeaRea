@@ -1,6 +1,10 @@
 language: node_js
+cache:
+  directories:
+    - node_modules
 node_js:
-  - 6
-  script: cd ReaGQL && yarn install && yarn build
-  script: cd ReaRest && yarn install && yarn build
-  script: yarn install && yarn build
+  - '8'
+script:
+  - cd ReaGQL && yarn install && yarn build
+  - cd ReaRest && yarn install && yarn build
+  - yarn install && yarn build
