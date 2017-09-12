@@ -12,11 +12,13 @@ jobs:
       script: cd ReaRest && yarn install && yarn build
     - stage: rooter
       script: yarn install
+    - stage: deploy
+      script: skip
+      deploy:
+        provider: heroku
+        app: wearea
+        api_key: $HEROKU_API_KEY
 
-deploy:
-  provider: heroku
-  app: wearea
-  api_key: $HEROKU_API_KEY
 
 #script:
 #  - cd ReaGQL && yarn install && yarn build
