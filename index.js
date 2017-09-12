@@ -5,24 +5,40 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const PORT =(process.env.PORT || 8080)
+const PORT = process.env.PORT || 8080;
 
-app.use('/ReaRest/',express.static(path.join(__dirname, 'ReaRest/dist')));
+// Redirect all HTTP traffic to HTTPS
+function ensureSecure(req, res, next) {
+  if (req.headers['x-forwarded-proto'] === 'https') {
+    // OK, continue
+    return next();
+  }
+  res.redirect('https://' + req.hostname + req.url);
+}
+
+// Handle environments
+if (process.env.NODE_ENV === 'production') {
+  app.all('*', ensureSecure);
+}
+
+app.use('/ReaRest/', express.static(path.join(__dirname, 'ReaRest/build')));
 app.get('/ReaRest/*', function(request, response) {
-  response.sendFile(path.join(__dirname,'ReaRest/dist/index.html'));
+  response.sendFile(path.join(__dirname, 'ReaRest/build/index.html'));
 });
 
-app.use('/ReaGQL/',express.static(path.join(__dirname, 'ReaGQL/build')));
+app.use('/ReaGQL/', express.static(path.join(__dirname, 'ReaGQL/build')));
 app.get('/ReaGQL/*', function(request, response) {
-  response.sendFile(path.join(__dirname,'ReaGQL/build/index.html'));
+  response.sendFile(path.join(__dirname, 'ReaGQL/build/index.html'));
 });
 
 app.get('/hello', (request, response) => {
-    response.send("Hello")
+  response.send('Hello');
 });
 
 app.listen(PORT, error => {
   error
     ? console.error(error)
-    : console.info(`==> 🌎 Listening on port ${PORT}. Visit http://localhost:${PORT}/ in your browser.`)
+    : console.info(
+        `==> 🌎 Listening on port ${PORT}. Visit http://localhost:${PORT}/ in your browser.`,
+      );
 });
