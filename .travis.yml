@@ -4,7 +4,17 @@ cache:
     - node_modules
 node_js:
   - '8'
-script:
-  - cd ReaGQL && yarn install && yarn build
-  - cd ReaRest && yarn install && yarn build
-  - yarn install && yarn build
+
+jobs:
+  include:
+    - stage: ReaGQL
+      script: cd ReaGQL && yarn install && yarn build
+    - stage: ReaRest
+      script: cd ReaRest && yarn install && yarn build
+    - stage: rooter
+      script: yarn install && yarn build
+
+#script:
+#  - cd ReaGQL && yarn install && yarn build
+#  - cd ReaRest && yarn install && yarn build
+#  - yarn install && yarn build
