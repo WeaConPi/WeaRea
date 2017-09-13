@@ -9,14 +9,10 @@ notifications:
 
 jobs:
   include:
-    - stage: ReaGQL
+    - stage: buildIT
       script: cd ReaGQL && yarn install && yarn build
-    - stage: ReaRest
-      script: cd ReaRest && yarn install && yarn build
-    - stage: rooter
-      script: yarn install
-    - stage: deploy
-      script: skip
+      script: cd .. && cd ReaRest && yarn install && yarn build
+      script: cd .. yarn install
       deploy:
         provider: heroku
         app: wearea
