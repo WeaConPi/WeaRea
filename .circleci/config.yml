@@ -26,7 +26,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
+#      - run: yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
 #      - run: cd WeaRea && yarn install && yarn build
 
       - save_cache:
@@ -39,7 +39,9 @@ jobs:
             - "4cJdeyvhhAmxRO/y0HaMiLAGA5gjnhc6Dv+Rk1oy34A Farmas@Farmas-PC"
       - deploy:
           name: Deploy Master to Heroku
-          command: |
+          commands:
+           - yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
+           - |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               git push -f heroku master
               heroku restart

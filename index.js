@@ -21,10 +21,13 @@ if (process.env.NODE_ENV === "production") {
     app.all("*", ensureSecure);
 }
 
+
+
 app.use("/ReaRest/", express.static(path.join(__dirname, "ReaRest/build")));
 app.get("/ReaRest/*", function(request, response) {
     response.sendFile(path.join(__dirname, "ReaRest/build/index.html"));
 });
+
 
 app.use("/ReaGQL/", express.static(path.join(__dirname, "ReaGQL/build")));
 app.get("/ReaGQL/*", function(request, response) {
@@ -34,7 +37,9 @@ app.get("/ReaGQL/*", function(request, response) {
 app.get("/hello", (request, response) => {
     response.send("Hello");
 });
-
+app.get("/", function(request, response) {
+    response.send('<img src="https://circleci.com/gh/WeaConPi/WeaRea/tree/master.svg?style=svg" />')
+});
 app.listen(PORT, error => {
     error
         ? console.error(error)
