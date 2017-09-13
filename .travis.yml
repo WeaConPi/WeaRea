@@ -11,8 +11,8 @@ jobs:
   include:
     - stage: buildIT
       script: cd ReaGQL && yarn install && yarn build
-      script: cd .. && cd ReaRest && yarn install && yarn build
-      script: cd .. yarn install
+      script: cd ReaRest && yarn install && yarn build
+      script: yarn install
       deploy:
         provider: heroku
         app: wearea
