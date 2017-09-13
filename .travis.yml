@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - '8'
+cache:
+  directories:
+    - node_modules
 notifications:
   email: false
 
@@ -18,6 +21,7 @@ jobs:
         provider: heroku
         app: wearea
         api_key: $HEROKU_API_KEY
+        skip_cleanup: true
 
 
 #script:
