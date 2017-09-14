@@ -31,7 +31,7 @@ jobs:
 #      - run: yarn install
 
       - store_artifacts:
-          path: /ReaGQL/build
+          path: /home/circleci/repo/ReaGQL
           destination: artifact-file
       - save_cache:
           paths:
