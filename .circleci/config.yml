@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
 #      - run: yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
-#      - run: cd WeaRea && yarn install && yarn build
+      - run: yarn install
 
       - save_cache:
           paths:
@@ -41,7 +41,7 @@ jobs:
           name: Deploy Master to Heroku
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
+#              yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
               git push -f heroku master
               heroku restart
             fi
