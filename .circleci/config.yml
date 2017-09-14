@@ -26,9 +26,13 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-#      - run: yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build
-      - run: yarn install
+      - run: yarn install && cd ReaGQL && yarn install && yarn build
+#      && cd .. && cd ReaRest && yarn install && yarn build
+#      - run: yarn install
 
+      - store_artifacts:
+          path: /build
+          destination: artifact-file
       - save_cache:
           paths:
             - node_modules

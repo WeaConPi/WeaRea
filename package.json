@@ -7,8 +7,6 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild":
-      "yarn install && cd ReaGQL && yarn install && yarn build && cd .. && cd ReaRest && yarn install && yarn build"
   },
   "dependencies": {
     "express": "^4.15.2",
