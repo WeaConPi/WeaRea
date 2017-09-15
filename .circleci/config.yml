@@ -42,7 +42,10 @@ jobs:
           name: Deploy Master to Heroku
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-            git add -A && git commit -m "${CIRCLE_BUILD_NUM}"
-             git push -f heroku master
-              heroku restart
+            git config user.name "farmasek"
+            git config user.email "vojtabaranek@gmail.com"
+            git add -A
+            git commit -m "${CIRCLE_BUILD_NUM}"
+            git push -f heroku master
+            heroku restart
             fi
