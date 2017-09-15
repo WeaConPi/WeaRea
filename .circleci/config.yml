@@ -30,9 +30,6 @@ jobs:
 #      && cd .. && cd ReaRest && yarn install && yarn build
 #      - run: yarn install
 
-      - store_artifacts:
-          path: /home/circleci/repo/ReaGQL/build
-          destination: artifact-file
       - save_cache:
           paths:
             - node_modules
@@ -45,6 +42,7 @@ jobs:
           name: Deploy Master to Heroku
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            git add -A && git commit -m "${CIRCLE_BUILD_NUM}"
              git push -f heroku master
               heroku restart
             fi
