@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/WeaConPi/WeaRea.git",
   "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
-  "engines": { "node": ">=8" },
   "license": "MIT",
   "scripts": {
     "start":
       "webpack-dev-server --debug --devtool cheap-module-source-map --output-pathinfo --history-api-fallback --hot --inline --progress --colors --port 1333 --open",
     "build": "webpack -p --progress --colors",
+    "heroku-postbuild": "webpack -p --progress --colors"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.16.0",

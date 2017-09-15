@@ -5,12 +5,11 @@
   "main": "index.js",
   "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
   "license": "MIT",
+  "engines": { "node": ">=8" },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.15.2",
-    "express-subdomain": "^1.0.5",
-    "serve": "^6.0.6"
   }
 }
