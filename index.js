@@ -36,7 +36,7 @@ app.get('/hello', (request, response) => {
 });
 app.get('/', function(request, response) {
   response.send(
-    '<a href="./ReaGQL/"><h1>Go to ReaGQL</h1></a><a href="./ReaRest/"><h1>Go to ReaREST</h1></a><img src="https://circleci.com/gh/WeaConPi/WeaRea/tree/master.svg?style=svg" />',
+    '<div><a href="./ReaGQL/"><h1>Go to ReaGQL</h1></a><a href="./ReaRest/"><h1>Go to ReaREST</h1></a><img src="https://circleci.com/gh/WeaConPi/WeaRea/tree/master.svg?style=svg" /></div>',
   );
 });
 app.listen(PORT, error => {
