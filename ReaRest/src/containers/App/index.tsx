@@ -41,7 +41,7 @@ class comp extends React.Component <IAppProps, any> {
               <div className="pt-navbar-heading">WeaConPi</div>
             </div>
             <div className="pt-navbar-group pt-align-right">
-              <Link to="/ReaRest">
+              <Link to="/">
                 <button className="pt-button pt-minimal pt-icon-home">Home</button>
               </Link>
               <Link to="/weanen-test">
@@ -58,7 +58,7 @@ class comp extends React.Component <IAppProps, any> {
           <Container className={this.props.themeStyle}>
             <Switch>
               <Route exact path="/hello" component={Hello as any}/>
-              <Route exact path="/ReaRest" component={DayDetail as any}/>
+              <Route exact path="/" component={DayDetail as any}/>
               <Route exact path="/weanen-test" component={BrainControl as any}/>
             </Switch>
           </Container>
