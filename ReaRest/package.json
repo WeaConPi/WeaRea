@@ -1,9 +1,9 @@
 {
-  "name": "ReaRest",
-  "version": "1.0.0",
+  "name": "@wearea/rearest",
+  "version": "1.0.1",
   "description": "React interface for WeaConPi",
-  "main": "index.js",
-  "repository": "https://github.com/WeaConPi/WeaRea.git",
+  "main": "export.ts",
+  "private": true,
   "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
   "license": "MIT",
   "scripts": {

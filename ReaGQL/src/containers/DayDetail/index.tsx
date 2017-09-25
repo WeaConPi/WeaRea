@@ -3,14 +3,18 @@ import { DayDetailInfo } from '../../components/DayDetailInfo/index';
 import styled from 'styled-components';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
-import { HourDetail } from '../../components/HourDetail/index';
+
 import * as moment from 'moment';
 import { DayCharts } from '../../components/DayCharts/index';
 import { IHour } from '../../models/Hour';
 import { Map } from 'immutable';
+import { HourDetail } from "@wearea/rearest";
 
 const StyledBody = styled.div`display: flex;`;
-
+export interface AppProps {
+    dispatch: (action: any) => void;
+    appStateThing: any;
+}
 class comp extends React.Component<any, any> {
   state = {
     selectedHour: 0,

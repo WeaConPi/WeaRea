@@ -1,4 +1,4 @@
-import { ToggleTheme } from './actions';
+import { appActions } from './actions';
 import { SELECT_DAY, TOGGLE_THEME } from './constants';
 import { Moment } from 'moment';
 import * as moment from 'moment';
@@ -15,7 +15,7 @@ const initialState: IAppReducer = {
 };
 export const appReducer = (
   state: IAppReducer = initialState,
-  action: ToggleTheme,
+  action: appActions,
 ): IAppReducer => {
   switch (action.type) {
     case TOGGLE_THEME: {
