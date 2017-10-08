@@ -1,0 +1,9 @@
+{
+  "lerna": "2.4.0",
+  "packages": [
+    "packages/weagql",
+    "packages/wearest",
+    "packages/wea-rui"
+  ],
+  "version": "0.0.0"
+}

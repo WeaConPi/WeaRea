@@ -1,0 +1,503 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ], args: [] }
+2 verbose rootPath E:\myprojects\lerna example
+3 info version 2.4.0
+4 silly existsSync E:\myprojects\lerna example\VERSION
+5 silly initialize attempt
+6 silly npmConfig { registry: undefined,
+6 silly npmConfig   npmClient: undefined,
+6 silly npmConfig   npmClientArgs: undefined,
+6 silly npmConfig   mutex: undefined }
+7 silly initialize success
+8 silly execute attempt
+9 info Bootstrapping 3 packages
+10 info lifecycle preinstall
+11 silly runScript preinstall undefined
+12 silly
+13 silly runScript preinstall wea-rui
+14 silly wea-rui
+15 silly runScript preinstall wearest
+16 silly wearest
+17 silly hasMatchingDependency wearest wea-rui
+18 silly hasDependencyInstalled undefined '@blueprintjs/core'
+19 silly dependencyIsSatisfied [ '@blueprintjs/core',
+19 silly dependencyIsSatisfied   '^1.27.0',
+19 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+20 verbose dependencyIsSatisfied @blueprintjs/core true
+21 silly hasDependencyInstalled undefined '@blueprintjs/datetime'
+22 silly dependencyIsSatisfied [ '@blueprintjs/datetime',
+22 silly dependencyIsSatisfied   '^1.22.0',
+22 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+23 verbose dependencyIsSatisfied @blueprintjs/datetime true
+24 silly hasDependencyInstalled undefined '@types/jest'
+25 silly dependencyIsSatisfied [ '@types/jest',
+25 silly dependencyIsSatisfied   '^20.0.8',
+25 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+26 verbose dependencyIsSatisfied @types/jest true
+27 silly hasDependencyInstalled wea-rui @types/jest
+28 silly dependencyIsSatisfied [ '@types/jest',
+28 silly dependencyIsSatisfied   '^21.1.0',
+28 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+29 verbose dependencyIsSatisfied @types/jest true
+30 silly hasDependencyInstalled undefined '@types/node'
+31 silly dependencyIsSatisfied [ '@types/node',
+31 silly dependencyIsSatisfied   '^8.0.28',
+31 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+32 verbose dependencyIsSatisfied @types/node true
+33 silly hasDependencyInstalled wea-rui @types/node
+34 silly dependencyIsSatisfied [ '@types/node',
+34 silly dependencyIsSatisfied   '^8.0.0',
+34 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+35 verbose dependencyIsSatisfied @types/node true
+36 silly hasDependencyInstalled undefined '@types/react'
+37 silly dependencyIsSatisfied [ '@types/react',
+37 silly dependencyIsSatisfied   '15.6.1',
+37 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+38 verbose dependencyIsSatisfied @types/react true
+39 silly hasDependencyInstalled undefined '@types/react-dom'
+40 silly dependencyIsSatisfied [ '@types/react-dom',
+40 silly dependencyIsSatisfied   '15.5.6',
+40 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+41 verbose dependencyIsSatisfied @types/react-dom true
+42 silly hasDependencyInstalled undefined '@types/react-redux'
+43 silly dependencyIsSatisfied [ '@types/react-redux',
+43 silly dependencyIsSatisfied   '^5.0.8',
+43 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+44 verbose dependencyIsSatisfied @types/react-redux true
+45 silly hasDependencyInstalled undefined '@types/react-router-dom'
+46 silly dependencyIsSatisfied [ '@types/react-router-dom',
+46 silly dependencyIsSatisfied   '^4.0.7',
+46 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+47 verbose dependencyIsSatisfied @types/react-router-dom true
+48 silly hasDependencyInstalled undefined 'immutable'
+49 silly dependencyIsSatisfied [ 'immutable',
+49 silly dependencyIsSatisfied   '^3.8.1',
+49 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+50 verbose dependencyIsSatisfied immutable true
+51 silly hasDependencyInstalled undefined 'moment'
+52 silly dependencyIsSatisfied [ 'moment',
+52 silly dependencyIsSatisfied   '^2.18.1',
+52 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+53 verbose dependencyIsSatisfied moment true
+54 silly hasDependencyInstalled undefined 'react'
+55 silly dependencyIsSatisfied [ 'react',
+55 silly dependencyIsSatisfied   '15.6.1',
+55 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+56 verbose dependencyIsSatisfied react true
+57 silly hasDependencyInstalled wea-rui react
+58 silly dependencyIsSatisfied [ 'react',
+58 silly dependencyIsSatisfied   '15.6.1',
+58 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+59 verbose dependencyIsSatisfied react true
+60 silly hasDependencyInstalled undefined 'react-addons-css-transition-group'
+61 silly dependencyIsSatisfied [ 'react-addons-css-transition-group',
+61 silly dependencyIsSatisfied   '^15.6.0',
+61 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+62 verbose dependencyIsSatisfied react-addons-css-transition-group true
+63 silly hasDependencyInstalled undefined 'react-apollo'
+64 silly dependencyIsSatisfied [ 'react-apollo',
+64 silly dependencyIsSatisfied   '^1.4.15',
+64 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+65 verbose dependencyIsSatisfied react-apollo true
+66 silly hasDependencyInstalled undefined 'react-dom'
+67 silly dependencyIsSatisfied [ 'react-dom',
+67 silly dependencyIsSatisfied   '15.6.1',
+67 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+68 verbose dependencyIsSatisfied react-dom true
+69 silly hasDependencyInstalled undefined 'react-redux'
+70 silly dependencyIsSatisfied [ 'react-redux',
+70 silly dependencyIsSatisfied   '^5.0.6',
+70 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+71 verbose dependencyIsSatisfied react-redux true
+72 silly hasDependencyInstalled undefined 'react-router-dom'
+73 silly dependencyIsSatisfied [ 'react-router-dom',
+73 silly dependencyIsSatisfied   '^4.1.1',
+73 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+74 verbose dependencyIsSatisfied react-router-dom true
+75 silly hasDependencyInstalled undefined 'react-scripts-ts'
+76 silly dependencyIsSatisfied [ 'react-scripts-ts',
+76 silly dependencyIsSatisfied   '2.6.0',
+76 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+77 verbose dependencyIsSatisfied react-scripts-ts true
+78 silly hasDependencyInstalled undefined 'recharts'
+79 silly dependencyIsSatisfied [ 'recharts',
+79 silly dependencyIsSatisfied   '^1.0.0-apha.5',
+79 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+80 verbose dependencyIsSatisfied recharts true
+81 silly hasDependencyInstalled undefined 'redux'
+82 silly dependencyIsSatisfied [ 'redux',
+82 silly dependencyIsSatisfied   '^3.7.2',
+82 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+83 verbose dependencyIsSatisfied redux true
+84 silly hasDependencyInstalled undefined 'styled-components'
+85 silly dependencyIsSatisfied [ 'styled-components',
+85 silly dependencyIsSatisfied   '^2.1.2',
+85 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaGQL\\node_modules' ]
+86 verbose dependencyIsSatisfied styled-components true
+87 silly hasDependencyInstalled wearest weagql
+88 silly dependencyIsSatisfied [ 'weagql',
+88 silly dependencyIsSatisfied   '^1.0.0',
+88 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRest\\node_modules' ]
+89 verbose dependencyIsSatisfied weagql false
+90 silly hasDependencyInstalled wea-rui colors
+91 silly dependencyIsSatisfied [ 'colors',
+91 silly dependencyIsSatisfied   '^1.1.2',
+91 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+92 verbose dependencyIsSatisfied colors true
+93 silly hasDependencyInstalled wea-rui commitizen
+94 silly dependencyIsSatisfied [ 'commitizen',
+94 silly dependencyIsSatisfied   '^2.9.6',
+94 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+95 verbose dependencyIsSatisfied commitizen true
+96 silly hasDependencyInstalled wea-rui coveralls
+97 silly dependencyIsSatisfied [ 'coveralls',
+97 silly dependencyIsSatisfied   '^3.0.0',
+97 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+98 verbose dependencyIsSatisfied coveralls true
+99 silly hasDependencyInstalled wea-rui cross-env
+100 silly dependencyIsSatisfied [ 'cross-env',
+100 silly dependencyIsSatisfied   '^5.0.1',
+100 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+101 verbose dependencyIsSatisfied cross-env true
+102 silly hasDependencyInstalled wea-rui cz-conventional-changelog
+103 silly dependencyIsSatisfied [ 'cz-conventional-changelog',
+103 silly dependencyIsSatisfied   '^2.0.0',
+103 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+104 verbose dependencyIsSatisfied cz-conventional-changelog true
+105 silly hasDependencyInstalled wea-rui husky
+106 silly dependencyIsSatisfied [ 'husky',
+106 silly dependencyIsSatisfied   '^0.14.0',
+106 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+107 verbose dependencyIsSatisfied husky true
+108 silly hasDependencyInstalled wea-rui jest
+109 silly dependencyIsSatisfied [ 'jest',
+109 silly dependencyIsSatisfied   '^21.0.0',
+109 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+110 verbose dependencyIsSatisfied jest true
+111 silly hasDependencyInstalled wea-rui lint-staged
+112 silly dependencyIsSatisfied [ 'lint-staged',
+112 silly dependencyIsSatisfied   '^4.0.0',
+112 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+113 verbose dependencyIsSatisfied lint-staged true
+114 silly hasDependencyInstalled wea-rui lodash.camelcase
+115 silly dependencyIsSatisfied [ 'lodash.camelcase',
+115 silly dependencyIsSatisfied   '^4.3.0',
+115 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+116 verbose dependencyIsSatisfied lodash.camelcase true
+117 silly hasDependencyInstalled wea-rui prettier
+118 silly dependencyIsSatisfied [ 'prettier',
+118 silly dependencyIsSatisfied   '^1.4.4',
+118 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+119 verbose dependencyIsSatisfied prettier true
+120 silly hasDependencyInstalled wea-rui prompt
+121 silly dependencyIsSatisfied [ 'prompt',
+121 silly dependencyIsSatisfied   '^1.0.0',
+121 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+122 verbose dependencyIsSatisfied prompt true
+123 silly hasDependencyInstalled wea-rui replace-in-file
+124 silly dependencyIsSatisfied [ 'replace-in-file',
+124 silly dependencyIsSatisfied   '^3.0.0-beta.2',
+124 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+125 verbose dependencyIsSatisfied replace-in-file true
+126 silly hasDependencyInstalled wea-rui rimraf
+127 silly dependencyIsSatisfied [ 'rimraf',
+127 silly dependencyIsSatisfied   '^2.6.1',
+127 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+128 verbose dependencyIsSatisfied rimraf true
+129 silly hasDependencyInstalled wea-rui rollup
+130 silly dependencyIsSatisfied [ 'rollup',
+130 silly dependencyIsSatisfied   '^0.50.0',
+130 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+131 verbose dependencyIsSatisfied rollup true
+132 silly hasDependencyInstalled wea-rui rollup-plugin-commonjs
+133 silly dependencyIsSatisfied [ 'rollup-plugin-commonjs',
+133 silly dependencyIsSatisfied   '^8.0.2',
+133 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+134 verbose dependencyIsSatisfied rollup-plugin-commonjs true
+135 silly hasDependencyInstalled wea-rui rollup-plugin-node-resolve
+136 silly dependencyIsSatisfied [ 'rollup-plugin-node-resolve',
+136 silly dependencyIsSatisfied   '^3.0.0',
+136 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+137 verbose dependencyIsSatisfied rollup-plugin-node-resolve true
+138 silly hasDependencyInstalled wea-rui rollup-plugin-sourcemaps
+139 silly dependencyIsSatisfied [ 'rollup-plugin-sourcemaps',
+139 silly dependencyIsSatisfied   '^0.4.2',
+139 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+140 verbose dependencyIsSatisfied rollup-plugin-sourcemaps true
+141 silly hasDependencyInstalled wea-rui semantic-release
+142 silly dependencyIsSatisfied [ 'semantic-release',
+142 silly dependencyIsSatisfied   '^8.0.0',
+142 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+143 verbose dependencyIsSatisfied semantic-release true
+144 silly hasDependencyInstalled wea-rui ts-jest
+145 silly dependencyIsSatisfied [ 'ts-jest',
+145 silly dependencyIsSatisfied   '^21.0.0',
+145 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+146 verbose dependencyIsSatisfied ts-jest true
+147 silly hasDependencyInstalled wea-rui ts-node
+148 silly dependencyIsSatisfied [ 'ts-node',
+148 silly dependencyIsSatisfied   '^3.0.6',
+148 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+149 verbose dependencyIsSatisfied ts-node true
+150 silly hasDependencyInstalled wea-rui tslint
+151 silly dependencyIsSatisfied [ 'tslint',
+151 silly dependencyIsSatisfied   '^5.4.3',
+151 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+152 verbose dependencyIsSatisfied tslint true
+153 silly hasDependencyInstalled wea-rui tslint-config-prettier
+154 silly dependencyIsSatisfied [ 'tslint-config-prettier',
+154 silly dependencyIsSatisfied   '^1.1.0',
+154 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+155 verbose dependencyIsSatisfied tslint-config-prettier true
+156 silly hasDependencyInstalled wea-rui tslint-config-standard
+157 silly dependencyIsSatisfied [ 'tslint-config-standard',
+157 silly dependencyIsSatisfied   '^6.0.0',
+157 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+158 verbose dependencyIsSatisfied tslint-config-standard true
+159 silly hasDependencyInstalled wea-rui typedoc
+160 silly dependencyIsSatisfied [ 'typedoc',
+160 silly dependencyIsSatisfied   '^0.8.0',
+160 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+161 verbose dependencyIsSatisfied typedoc true
+162 silly hasDependencyInstalled wea-rui typescript
+163 silly dependencyIsSatisfied [ 'typescript',
+163 silly dependencyIsSatisfied   '^2.3.4',
+163 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+164 verbose dependencyIsSatisfied typescript true
+165 silly hasDependencyInstalled wea-rui validate-commit-msg
+166 silly dependencyIsSatisfied [ 'validate-commit-msg',
+166 silly dependencyIsSatisfied   '^2.12.2',
+166 silly dependencyIsSatisfied   'E:\\myprojects\\lerna example\\packages\\WeaRUI\\node_modules' ]
+167 verbose dependencyIsSatisfied validate-commit-msg true
+168 silly root dependencies []
+169 silly leaf dependencies {
+169 silly leaf dependencies   "undefined": [
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@blueprintjs/core@^1.27.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@blueprintjs/datetime@^1.22.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/jest@^20.0.8",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/node@^8.0.28",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/react@15.6.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/react-dom@15.5.6",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/react-redux@^5.0.8",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/react-router-dom@^4.0.7",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "immutable@^3.8.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "moment@^2.18.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react@15.6.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-addons-css-transition-group@^15.6.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-apollo@^1.4.15",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-dom@15.6.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-redux@^5.0.6",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-router-dom@^4.1.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react-scripts-ts@2.6.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "recharts@^1.0.0-apha.5",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "redux@^3.7.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "styled-components@^2.1.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     }
+169 silly leaf dependencies   ],
+169 silly leaf dependencies   "wea-rui": [
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/jest@^21.1.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "@types/node@^8.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "react@15.6.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "colors@^1.1.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "commitizen@^2.9.6",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "coveralls@^3.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "cross-env@^5.0.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "cz-conventional-changelog@^2.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "husky@^0.14.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "jest@^21.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "lint-staged@^4.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "lodash.camelcase@^4.3.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "prettier@^1.4.4",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "prompt@^1.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "replace-in-file@^3.0.0-beta.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "rimraf@^2.6.1",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "rollup@^0.50.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "rollup-plugin-commonjs@^8.0.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "rollup-plugin-node-resolve@^3.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "rollup-plugin-sourcemaps@^0.4.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "semantic-release@^8.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "ts-jest@^21.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "ts-node@^3.0.6",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "tslint@^5.4.3",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "tslint-config-prettier@^1.1.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "tslint-config-standard@^6.0.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "typedoc@^0.8.0",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "typescript@^2.3.4",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     },
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "validate-commit-msg@^2.12.2",
+169 silly leaf dependencies       "isSatisfied": true
+169 silly leaf dependencies     }
+169 silly leaf dependencies   ],
+169 silly leaf dependencies   "wearest": [
+169 silly leaf dependencies     {
+169 silly leaf dependencies       "dependency": "weagql@^1.0.0",
+169 silly leaf dependencies       "isSatisfied": false
+169 silly leaf dependencies     }
+169 silly leaf dependencies   ]
+169 silly leaf dependencies }
+170 info Installing external dependencies
+171 verbose actions 1 actions, concurrency 4
+172 silly installInDir WeaRest [ 'weagql@^1.0.0' ]
+173 silly installInDir backup E:\myprojects\lerna example\packages\WeaRest\package.json
+174 silly rename [ 'E:\\myprojects\\lerna example\\packages\\WeaRest\\package.json',
+174 silly rename   'E:\\myprojects\\lerna example\\packages\\WeaRest\\package.json.lerna_backup' ]
+175 silly installInDir writing tempJson { dependencies: { weagql: '^1.0.0' } }
+176 silly getExecOpts { cwd: 'E:\\myprojects\\lerna example\\packages\\WeaRest' }
+177 silly installInDir [ 'npm', [ 'install' ] ]
+178 silly installInDir cleanup E:\myprojects\lerna example\packages\WeaRest\package.json
+179 silly renameSync [ 'E:\\myprojects\\lerna example\\packages\\WeaRest\\package.json.lerna_backup',
+179 silly renameSync   'E:\\myprojects\\lerna example\\packages\\WeaRest\\package.json' ]
+180 verbose installed leaf wearest
+181 error execute callback with error
+182 error Error: Command failed: npm install
+182 error npm ERR! code E404
+182 error npm ERR! 404 Not Found: weagql@^1.0.0
+182 error
+182 error npm ERR! A complete log of this run can be found in:
+182 error npm ERR!     C:\Users\Farmas\AppData\Roaming\npm-cache\_logs\2017-10-08T16_32_42_031Z-debug.log
+182 error
+182 error     at Promise.all.then.arr (C:\Users\Farmas\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+182 error     at <anonymous>

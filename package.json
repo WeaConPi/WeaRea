@@ -1,15 +1,5 @@
 {
-  "name": "WeaRea",
-  "version": "1.0.0",
-  "description": "React interface for WeaConPi",
-  "main": "index.js",
-  "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
-  "license": "MIT",
-  "engines": { "node": ">=8" },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.15.2"
-  }
+	"devDependencies": {
+		"lerna": "^2.4.0"
+	}
 }
