@@ -56,7 +56,7 @@ class comp extends React.Component <IAppProps, any> {
               <button onClick={this.handleToggleTheme} className="pt-button pt-minimal pt-icon-moon"/>
             </div>
           </nav>
-          <HelloWorld></HelloWorld>
+          <HelloWorld hello={'HELLO'} who={'REAREST'}/>
           <Container className={this.props.themeStyle}>
             <Switch>
               <Route exact path="/hello" component={Hello as any}/>
