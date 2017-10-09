@@ -3,9 +3,9 @@ import { DayDetailInfo } from 'wea-rui';
 import styled from 'styled-components';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
-import { HourDetail } from '../../components/HourDetail/index';
+import { HourDetail } from 'wea-rui';
 import * as moment from 'moment';
-import { DayCharts } from '../../components/DayCharts/index';
+import { DayCharts } from 'wea-rui';
 import { IHour } from '../../models/Hour';
 import { Map } from 'immutable';
 
