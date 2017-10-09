@@ -1,8 +1,8 @@
 0 silly input []
 1 silly flags { _: [ 'bootstrap' ], args: [] }
-2 verbose rootPath C:\myprojects\skul\betterWearea\WeaRea
+2 verbose rootPath E:\myprojects\WeaConPiComp\WeaRea
 3 info version 2.4.0
-4 silly existsSync C:\myprojects\skul\betterWearea\WeaRea\VERSION
+4 silly existsSync E:\myprojects\WeaConPiComp\WeaRea\VERSION
 5 silly initialize attempt
 6 silly npmConfig { registry: undefined,
 6 silly npmConfig   npmClient: undefined,
@@ -10,825 +10,740 @@
 6 silly npmConfig   mutex: undefined }
 7 silly initialize success
 8 silly execute attempt
-9 info Bootstrapping 2 packages
+9 info Bootstrapping 3 packages
 10 info lifecycle preinstall
-11 silly runScript preinstall reagql
-12 silly reagql
-13 silly runScript preinstall rearest
-14 silly rearest
-15 silly hasDependencyInstalled reagql react-scripts-ts
-16 silly dependencyIsSatisfied [ 'react-scripts-ts',
-16 silly dependencyIsSatisfied   '2.6.0',
-16 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-17 verbose dependencyIsSatisfied react-scripts-ts false
-18 silly hasDependencyInstalled reagql @blueprintjs/core
-19 silly dependencyIsSatisfied [ '@blueprintjs/core',
-19 silly dependencyIsSatisfied   '^1.27.0',
-19 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-20 verbose dependencyIsSatisfied @blueprintjs/core false
-21 silly hasDependencyInstalled rearest @blueprintjs/core
-22 silly dependencyIsSatisfied [ '@blueprintjs/core',
-22 silly dependencyIsSatisfied   '^1.16.0',
-22 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-23 verbose dependencyIsSatisfied @blueprintjs/core false
-24 silly hasDependencyInstalled reagql @blueprintjs/datetime
-25 silly dependencyIsSatisfied [ '@blueprintjs/datetime',
-25 silly dependencyIsSatisfied   '^1.22.0',
-25 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-26 verbose dependencyIsSatisfied @blueprintjs/datetime false
-27 silly hasDependencyInstalled rearest @blueprintjs/datetime
-28 silly dependencyIsSatisfied [ '@blueprintjs/datetime',
-28 silly dependencyIsSatisfied   '^1.14.1',
-28 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-29 verbose dependencyIsSatisfied @blueprintjs/datetime false
-30 silly hasDependencyInstalled reagql @types/jest
-31 silly dependencyIsSatisfied [ '@types/jest',
-31 silly dependencyIsSatisfied   '^20.0.8',
-31 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-32 verbose dependencyIsSatisfied @types/jest false
-33 silly hasDependencyInstalled reagql @types/node
-34 silly dependencyIsSatisfied [ '@types/node',
-34 silly dependencyIsSatisfied   '^8.0.28',
-34 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-35 verbose dependencyIsSatisfied @types/node false
-36 silly hasDependencyInstalled rearest @types/node
-37 silly dependencyIsSatisfied [ '@types/node',
-37 silly dependencyIsSatisfied   '^7.0.13',
-37 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-38 verbose dependencyIsSatisfied @types/node false
-39 silly hasDependencyInstalled reagql @types/react-redux
-40 silly dependencyIsSatisfied [ '@types/react-redux',
-40 silly dependencyIsSatisfied   '^5.0.8',
-40 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-41 verbose dependencyIsSatisfied @types/react-redux false
-42 silly hasDependencyInstalled rearest @types/react-redux
-43 silly dependencyIsSatisfied [ '@types/react-redux',
-43 silly dependencyIsSatisfied   '^4.4.39',
-43 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-44 verbose dependencyIsSatisfied @types/react-redux false
-45 silly hasDependencyInstalled reagql @types/react-router-dom
-46 silly dependencyIsSatisfied [ '@types/react-router-dom',
-46 silly dependencyIsSatisfied   '^4.0.7',
-46 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-47 verbose dependencyIsSatisfied @types/react-router-dom false
-48 silly hasDependencyInstalled rearest @types/react-router-dom
-49 silly dependencyIsSatisfied [ '@types/react-router-dom',
-49 silly dependencyIsSatisfied   '^4.0.4',
-49 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-50 verbose dependencyIsSatisfied @types/react-router-dom false
-51 silly hasDependencyInstalled reagql immutable
-52 silly dependencyIsSatisfied [ 'immutable',
-52 silly dependencyIsSatisfied   '^3.8.1',
-52 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-53 verbose dependencyIsSatisfied immutable false
-54 silly hasDependencyInstalled rearest immutable
-55 silly dependencyIsSatisfied [ 'immutable',
-55 silly dependencyIsSatisfied   '^3.8.1',
-55 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-56 verbose dependencyIsSatisfied immutable false
-57 silly hasDependencyInstalled reagql moment
-58 silly dependencyIsSatisfied [ 'moment',
-58 silly dependencyIsSatisfied   '^2.18.1',
-58 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-59 verbose dependencyIsSatisfied moment false
-60 silly hasDependencyInstalled rearest moment
-61 silly dependencyIsSatisfied [ 'moment',
-61 silly dependencyIsSatisfied   '^2.18.1',
-61 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-62 verbose dependencyIsSatisfied moment false
-63 silly hasDependencyInstalled reagql wea-rui
-64 silly dependencyIsSatisfied [ 'wea-rui',
-64 silly dependencyIsSatisfied   '^1.0.0',
-64 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-65 verbose dependencyIsSatisfied wea-rui false
-66 silly hasDependencyInstalled rearest wea-rui
-67 silly dependencyIsSatisfied [ 'wea-rui',
-67 silly dependencyIsSatisfied   '^1.0.0',
-67 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-68 verbose dependencyIsSatisfied wea-rui false
-69 silly hasDependencyInstalled reagql react
-70 silly dependencyIsSatisfied [ 'react',
-70 silly dependencyIsSatisfied   '15.6.1',
-70 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-71 verbose dependencyIsSatisfied react false
-72 silly hasDependencyInstalled rearest react
-73 silly dependencyIsSatisfied [ 'react',
-73 silly dependencyIsSatisfied   '^15.5.4',
-73 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-74 verbose dependencyIsSatisfied react false
-75 silly hasDependencyInstalled reagql react-addons-css-transition-group
-76 silly dependencyIsSatisfied [ 'react-addons-css-transition-group',
-76 silly dependencyIsSatisfied   '^15.6.0',
-76 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-77 verbose dependencyIsSatisfied react-addons-css-transition-group false
-78 silly hasDependencyInstalled rearest react-addons-css-transition-group
-79 silly dependencyIsSatisfied [ 'react-addons-css-transition-group',
-79 silly dependencyIsSatisfied   '^15.5.2',
-79 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-80 verbose dependencyIsSatisfied react-addons-css-transition-group false
-81 silly hasDependencyInstalled reagql react-apollo
-82 silly dependencyIsSatisfied [ 'react-apollo',
-82 silly dependencyIsSatisfied   '^1.4.15',
-82 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-83 verbose dependencyIsSatisfied react-apollo false
-84 silly hasDependencyInstalled reagql react-dom
-85 silly dependencyIsSatisfied [ 'react-dom',
-85 silly dependencyIsSatisfied   '15.6.1',
-85 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-86 verbose dependencyIsSatisfied react-dom false
-87 silly hasDependencyInstalled rearest react-dom
-88 silly dependencyIsSatisfied [ 'react-dom',
-88 silly dependencyIsSatisfied   '^15.5.4',
-88 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-89 verbose dependencyIsSatisfied react-dom false
-90 silly hasDependencyInstalled reagql react-redux
-91 silly dependencyIsSatisfied [ 'react-redux',
-91 silly dependencyIsSatisfied   '^5.0.6',
-91 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-92 verbose dependencyIsSatisfied react-redux false
-93 silly hasDependencyInstalled rearest react-redux
-94 silly dependencyIsSatisfied [ 'react-redux',
-94 silly dependencyIsSatisfied   '^5.0.4',
-94 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-95 verbose dependencyIsSatisfied react-redux false
-96 silly hasDependencyInstalled reagql react-router-dom
-97 silly dependencyIsSatisfied [ 'react-router-dom',
-97 silly dependencyIsSatisfied   '^4.1.1',
-97 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-98 verbose dependencyIsSatisfied react-router-dom false
-99 silly hasDependencyInstalled rearest react-router-dom
-100 silly dependencyIsSatisfied [ 'react-router-dom',
-100 silly dependencyIsSatisfied   '^4.1.1',
-100 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-101 verbose dependencyIsSatisfied react-router-dom false
-102 silly hasDependencyInstalled reagql recharts
-103 silly dependencyIsSatisfied [ 'recharts',
-103 silly dependencyIsSatisfied   '^1.0.0-apha.5',
-103 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-104 verbose dependencyIsSatisfied recharts false
-105 silly hasDependencyInstalled rearest recharts
-106 silly dependencyIsSatisfied [ 'recharts',
-106 silly dependencyIsSatisfied   '^0.22.4',
-106 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-107 verbose dependencyIsSatisfied recharts false
-108 silly hasDependencyInstalled reagql redux
-109 silly dependencyIsSatisfied [ 'redux',
-109 silly dependencyIsSatisfied   '^3.7.2',
-109 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-110 verbose dependencyIsSatisfied redux false
-111 silly hasDependencyInstalled rearest redux
-112 silly dependencyIsSatisfied [ 'redux',
-112 silly dependencyIsSatisfied   '^3.6.0',
-112 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-113 verbose dependencyIsSatisfied redux false
-114 silly hasDependencyInstalled reagql styled-components
-115 silly dependencyIsSatisfied [ 'styled-components',
-115 silly dependencyIsSatisfied   '^2.1.2',
-115 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\node_modules' ]
-116 verbose dependencyIsSatisfied styled-components false
-117 silly hasDependencyInstalled rearest styled-components
-118 silly dependencyIsSatisfied [ 'styled-components',
-118 silly dependencyIsSatisfied   '^1.4.5',
-118 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-119 verbose dependencyIsSatisfied styled-components false
-120 silly hasDependencyInstalled rearest @types/classnames
-121 silly dependencyIsSatisfied [ '@types/classnames',
-121 silly dependencyIsSatisfied   '^0.0.32',
-121 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-122 verbose dependencyIsSatisfied @types/classnames false
-123 silly hasDependencyInstalled rearest @types/history
-124 silly dependencyIsSatisfied [ '@types/history',
-124 silly dependencyIsSatisfied   '^4.5.0',
-124 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-125 verbose dependencyIsSatisfied @types/history false
-126 silly hasDependencyInstalled rearest @types/prop-types
-127 silly dependencyIsSatisfied [ '@types/prop-types',
-127 silly dependencyIsSatisfied   '^15.5.1',
-127 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-128 verbose dependencyIsSatisfied @types/prop-types false
-129 silly hasDependencyInstalled rearest @types/react
-130 silly dependencyIsSatisfied [ '@types/react',
-130 silly dependencyIsSatisfied   '^15.0.22',
-130 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-131 verbose dependencyIsSatisfied @types/react false
-132 silly hasDependencyInstalled rearest @types/react-dom
-133 silly dependencyIsSatisfied [ '@types/react-dom',
-133 silly dependencyIsSatisfied   '^0.14.23',
-133 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-134 verbose dependencyIsSatisfied @types/react-dom false
-135 silly hasDependencyInstalled rearest @types/redux-actions
-136 silly dependencyIsSatisfied [ '@types/redux-actions',
-136 silly dependencyIsSatisfied   '^1.2.4',
-136 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-137 verbose dependencyIsSatisfied @types/redux-actions false
-138 silly hasDependencyInstalled rearest @types/webpack
-139 silly dependencyIsSatisfied [ '@types/webpack',
-139 silly dependencyIsSatisfied   '^2.2.15',
-139 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-140 verbose dependencyIsSatisfied @types/webpack false
-141 silly hasDependencyInstalled rearest @types/webpack-env
-142 silly dependencyIsSatisfied [ '@types/webpack-env',
-142 silly dependencyIsSatisfied   '^1.13.0',
-142 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-143 verbose dependencyIsSatisfied @types/webpack-env false
-144 silly hasDependencyInstalled rearest auth0-lock
-145 silly dependencyIsSatisfied [ 'auth0-lock',
-145 silly dependencyIsSatisfied   '^10.15.1',
-145 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-146 verbose dependencyIsSatisfied auth0-lock false
-147 silly hasDependencyInstalled rearest awesome-typescript-loader
-148 silly dependencyIsSatisfied [ 'awesome-typescript-loader',
-148 silly dependencyIsSatisfied   '^3.1.2',
-148 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-149 verbose dependencyIsSatisfied awesome-typescript-loader false
-150 silly hasDependencyInstalled rearest classnames
-151 silly dependencyIsSatisfied [ 'classnames',
-151 silly dependencyIsSatisfied   '^2.2.5',
-151 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-152 verbose dependencyIsSatisfied classnames false
-153 silly hasDependencyInstalled rearest css-loader
-154 silly dependencyIsSatisfied [ 'css-loader',
-154 silly dependencyIsSatisfied   '^0.27.3',
-154 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-155 verbose dependencyIsSatisfied css-loader false
-156 silly hasDependencyInstalled rearest express
-157 silly dependencyIsSatisfied [ 'express',
-157 silly dependencyIsSatisfied   '^4.15.2',
-157 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-158 verbose dependencyIsSatisfied express false
-159 silly hasDependencyInstalled rearest extract-text-webpack-plugin
-160 silly dependencyIsSatisfied [ 'extract-text-webpack-plugin',
-160 silly dependencyIsSatisfied   '^2.1.0',
-160 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-161 verbose dependencyIsSatisfied extract-text-webpack-plugin false
-162 silly hasDependencyInstalled rearest file-loader
-163 silly dependencyIsSatisfied [ 'file-loader',
-163 silly dependencyIsSatisfied   '^0.10.1',
-163 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-164 verbose dependencyIsSatisfied file-loader false
-165 silly hasDependencyInstalled rearest global
-166 silly dependencyIsSatisfied [ 'global',
-166 silly dependencyIsSatisfied   '^4.3.2',
-166 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-167 verbose dependencyIsSatisfied global false
-168 silly hasDependencyInstalled rearest html-loader
-169 silly dependencyIsSatisfied [ 'html-loader',
-169 silly dependencyIsSatisfied   '^0.4.5',
-169 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-170 verbose dependencyIsSatisfied html-loader false
-171 silly hasDependencyInstalled rearest html-webpack-plugin
-172 silly dependencyIsSatisfied [ 'html-webpack-plugin',
-172 silly dependencyIsSatisfied   '^2.28.0',
-172 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-173 verbose dependencyIsSatisfied html-webpack-plugin false
-174 silly hasDependencyInstalled rearest postcss
-175 silly dependencyIsSatisfied [ 'postcss',
-175 silly dependencyIsSatisfied   '^5.2.17',
-175 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-176 verbose dependencyIsSatisfied postcss false
-177 silly hasDependencyInstalled rearest postcss-browser-reporter
-178 silly dependencyIsSatisfied [ 'postcss-browser-reporter',
-178 silly dependencyIsSatisfied   '^0.5.0',
-178 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-179 verbose dependencyIsSatisfied postcss-browser-reporter false
-180 silly hasDependencyInstalled rearest postcss-cssnext
-181 silly dependencyIsSatisfied [ 'postcss-cssnext',
-181 silly dependencyIsSatisfied   '^2.10.0',
-181 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-182 verbose dependencyIsSatisfied postcss-cssnext false
-183 silly hasDependencyInstalled rearest postcss-import
-184 silly dependencyIsSatisfied [ 'postcss-import',
-184 silly dependencyIsSatisfied   '^9.1.0',
-184 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-185 verbose dependencyIsSatisfied postcss-import false
-186 silly hasDependencyInstalled rearest postcss-loader
-187 silly dependencyIsSatisfied [ 'postcss-loader',
-187 silly dependencyIsSatisfied   '^1.3.3',
-187 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-188 verbose dependencyIsSatisfied postcss-loader false
-189 silly hasDependencyInstalled rearest postcss-reporter
-190 silly dependencyIsSatisfied [ 'postcss-reporter',
-190 silly dependencyIsSatisfied   '^3.0.0',
-190 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-191 verbose dependencyIsSatisfied postcss-reporter false
-192 silly hasDependencyInstalled rearest postcss-url
-193 silly dependencyIsSatisfied [ 'postcss-url',
-193 silly dependencyIsSatisfied   '^5.1.2',
-193 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-194 verbose dependencyIsSatisfied postcss-url false
-195 silly hasDependencyInstalled rearest prop-types
-196 silly dependencyIsSatisfied [ 'prop-types',
-196 silly dependencyIsSatisfied   '^15.5.8',
-196 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-197 verbose dependencyIsSatisfied prop-types false
-198 silly hasDependencyInstalled rearest react-hot-loader
-199 silly dependencyIsSatisfied [ 'react-hot-loader',
-199 silly dependencyIsSatisfied   '^1.3.1',
-199 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-200 verbose dependencyIsSatisfied react-hot-loader false
-201 silly hasDependencyInstalled rearest redux-actions
-202 silly dependencyIsSatisfied [ 'redux-actions',
-202 silly dependencyIsSatisfied   '^2.0.2',
-202 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-203 verbose dependencyIsSatisfied redux-actions false
-204 silly hasDependencyInstalled rearest redux-observable
-205 silly dependencyIsSatisfied [ 'redux-observable',
-205 silly dependencyIsSatisfied   '^0.14.1',
-205 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-206 verbose dependencyIsSatisfied redux-observable false
-207 silly hasDependencyInstalled rearest rxjs
-208 silly dependencyIsSatisfied [ 'rxjs',
-208 silly dependencyIsSatisfied   '^5.3.0',
-208 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-209 verbose dependencyIsSatisfied rxjs false
-210 silly hasDependencyInstalled rearest style-loader
-211 silly dependencyIsSatisfied [ 'style-loader',
-211 silly dependencyIsSatisfied   '^0.16.1',
-211 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-212 verbose dependencyIsSatisfied style-loader false
-213 silly hasDependencyInstalled rearest typescript
-214 silly dependencyIsSatisfied [ 'typescript',
-214 silly dependencyIsSatisfied   '^2.3.0',
-214 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-215 verbose dependencyIsSatisfied typescript false
-216 silly hasDependencyInstalled rearest url-loader
-217 silly dependencyIsSatisfied [ 'url-loader',
-217 silly dependencyIsSatisfied   '^0.5.8',
-217 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-218 verbose dependencyIsSatisfied url-loader false
-219 silly hasDependencyInstalled rearest webpack
-220 silly dependencyIsSatisfied [ 'webpack',
-220 silly dependencyIsSatisfied   '^2.4.1',
-220 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-221 verbose dependencyIsSatisfied webpack false
-222 silly hasDependencyInstalled rearest webpack-dev-server
-223 silly dependencyIsSatisfied [ 'webpack-dev-server',
-223 silly dependencyIsSatisfied   '^2.4.4',
-223 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-224 verbose dependencyIsSatisfied webpack-dev-server false
-225 silly hasDependencyInstalled rearest webpack-hot-middleware
-226 silly dependencyIsSatisfied [ 'webpack-hot-middleware',
-226 silly dependencyIsSatisfied   '^2.18.0',
-226 silly dependencyIsSatisfied   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\node_modules' ]
-227 verbose dependencyIsSatisfied webpack-hot-middleware false
-228 silly root dependencies []
-229 silly leaf dependencies {
-229 silly leaf dependencies   "reagql": [
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-scripts-ts@2.6.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@blueprintjs/core@^1.27.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@blueprintjs/datetime@^1.22.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/jest@^20.0.8",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/node@^8.0.28",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react-redux@^5.0.8",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react-router-dom@^4.0.7",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "immutable@^3.8.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "moment@^2.18.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "wea-rui@^1.0.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react@15.6.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-addons-css-transition-group@^15.6.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-apollo@^1.4.15",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-dom@15.6.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-redux@^5.0.6",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-router-dom@^4.1.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "recharts@^1.0.0-apha.5",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "redux@^3.7.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "styled-components@^2.1.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     }
-229 silly leaf dependencies   ],
-229 silly leaf dependencies   "rearest": [
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@blueprintjs/core@^1.16.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@blueprintjs/datetime@^1.14.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/node@^7.0.13",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react-redux@^4.4.39",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react-router-dom@^4.0.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "immutable@^3.8.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "moment@^2.18.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "wea-rui@^1.0.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react@^15.5.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-addons-css-transition-group@^15.5.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-dom@^15.5.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-redux@^5.0.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-router-dom@^4.1.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "recharts@^0.22.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "redux@^3.6.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "styled-components@^1.4.5",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/classnames@^0.0.32",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/history@^4.5.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/prop-types@^15.5.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react@^15.0.22",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/react-dom@^0.14.23",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/redux-actions@^1.2.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/webpack@^2.2.15",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "@types/webpack-env@^1.13.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "auth0-lock@^10.15.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "awesome-typescript-loader@^3.1.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "classnames@^2.2.5",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "css-loader@^0.27.3",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "express@^4.15.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "extract-text-webpack-plugin@^2.1.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "file-loader@^0.10.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "global@^4.3.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "html-loader@^0.4.5",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "html-webpack-plugin@^2.28.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss@^5.2.17",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-browser-reporter@^0.5.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-cssnext@^2.10.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-import@^9.1.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-loader@^1.3.3",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-reporter@^3.0.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "postcss-url@^5.1.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "prop-types@^15.5.8",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "react-hot-loader@^1.3.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "redux-actions@^2.0.2",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "redux-observable@^0.14.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "rxjs@^5.3.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "style-loader@^0.16.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "typescript@^2.3.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "url-loader@^0.5.8",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "webpack@^2.4.1",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "webpack-dev-server@^2.4.4",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     },
-229 silly leaf dependencies     {
-229 silly leaf dependencies       "dependency": "webpack-hot-middleware@^2.18.0",
-229 silly leaf dependencies       "isSatisfied": false
-229 silly leaf dependencies     }
-229 silly leaf dependencies   ]
-229 silly leaf dependencies }
-230 info Installing external dependencies
-231 verbose actions 2 actions, concurrency 4
-232 silly installInDir ReaGQL [ 'react-scripts-ts@2.6.0',
-232 silly installInDir   '@blueprintjs/core@^1.27.0',
-232 silly installInDir   '@blueprintjs/datetime@^1.22.0',
-232 silly installInDir   '@types/jest@^20.0.8',
-232 silly installInDir   '@types/node@^8.0.28',
-232 silly installInDir   '@types/react-redux@^5.0.8',
-232 silly installInDir   '@types/react-router-dom@^4.0.7',
-232 silly installInDir   'immutable@^3.8.1',
-232 silly installInDir   'moment@^2.18.1',
-232 silly installInDir   'wea-rui@^1.0.0',
-232 silly installInDir   'react@15.6.1',
-232 silly installInDir   'react-addons-css-transition-group@^15.6.0',
-232 silly installInDir   'react-apollo@^1.4.15',
-232 silly installInDir   'react-dom@15.6.1',
-232 silly installInDir   'react-redux@^5.0.6',
-232 silly installInDir   'react-router-dom@^4.1.1',
-232 silly installInDir   'recharts@^1.0.0-apha.5',
-232 silly installInDir   'redux@^3.7.2',
-232 silly installInDir   'styled-components@^2.1.2' ]
-233 silly installInDir backup C:\myprojects\skul\betterWearea\WeaRea\packages\ReaGQL\package.json
-234 silly rename [ 'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\package.json',
-234 silly rename   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\package.json.lerna_backup' ]
-235 silly installInDir ReaRest [ '@blueprintjs/core@^1.16.0',
-235 silly installInDir   '@blueprintjs/datetime@^1.14.1',
-235 silly installInDir   '@types/node@^7.0.13',
-235 silly installInDir   '@types/react-redux@^4.4.39',
-235 silly installInDir   '@types/react-router-dom@^4.0.4',
-235 silly installInDir   'immutable@^3.8.1',
-235 silly installInDir   'moment@^2.18.1',
-235 silly installInDir   'wea-rui@^1.0.0',
-235 silly installInDir   'react@^15.5.4',
-235 silly installInDir   'react-addons-css-transition-group@^15.5.2',
-235 silly installInDir   'react-dom@^15.5.4',
-235 silly installInDir   'react-redux@^5.0.4',
-235 silly installInDir   'react-router-dom@^4.1.1',
-235 silly installInDir   'recharts@^0.22.4',
-235 silly installInDir   'redux@^3.6.0',
-235 silly installInDir   'styled-components@^1.4.5',
-235 silly installInDir   '@types/classnames@^0.0.32',
-235 silly installInDir   '@types/history@^4.5.0',
-235 silly installInDir   '@types/prop-types@^15.5.1',
-235 silly installInDir   '@types/react@^15.0.22',
-235 silly installInDir   '@types/react-dom@^0.14.23',
-235 silly installInDir   '@types/redux-actions@^1.2.4',
-235 silly installInDir   '@types/webpack@^2.2.15',
-235 silly installInDir   '@types/webpack-env@^1.13.0',
-235 silly installInDir   'auth0-lock@^10.15.1',
-235 silly installInDir   'awesome-typescript-loader@^3.1.2',
-235 silly installInDir   'classnames@^2.2.5',
-235 silly installInDir   'css-loader@^0.27.3',
-235 silly installInDir   'express@^4.15.2',
-235 silly installInDir   'extract-text-webpack-plugin@^2.1.0',
-235 silly installInDir   'file-loader@^0.10.1',
-235 silly installInDir   'global@^4.3.2',
-235 silly installInDir   'html-loader@^0.4.5',
-235 silly installInDir   'html-webpack-plugin@^2.28.0',
-235 silly installInDir   'postcss@^5.2.17',
-235 silly installInDir   'postcss-browser-reporter@^0.5.0',
-235 silly installInDir   'postcss-cssnext@^2.10.0',
-235 silly installInDir   'postcss-import@^9.1.0',
-235 silly installInDir   'postcss-loader@^1.3.3',
-235 silly installInDir   'postcss-reporter@^3.0.0',
-235 silly installInDir   'postcss-url@^5.1.2',
-235 silly installInDir   'prop-types@^15.5.8',
-235 silly installInDir   'react-hot-loader@^1.3.1',
-235 silly installInDir   'redux-actions@^2.0.2',
-235 silly installInDir   'redux-observable@^0.14.1',
-235 silly installInDir   'rxjs@^5.3.0',
-235 silly installInDir   'style-loader@^0.16.1',
-235 silly installInDir   'typescript@^2.3.0',
-235 silly installInDir   'url-loader@^0.5.8',
-235 silly installInDir   'webpack@^2.4.1',
-235 silly installInDir   'webpack-dev-server@^2.4.4',
-235 silly installInDir   'webpack-hot-middleware@^2.18.0' ]
-236 silly installInDir backup C:\myprojects\skul\betterWearea\WeaRea\packages\ReaRest\package.json
-237 silly rename [ 'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\package.json',
-237 silly rename   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest\\package.json.lerna_backup' ]
-238 silly installInDir writing tempJson { dependencies:
-238 silly installInDir    { 'react-scripts-ts': '2.6.0',
-238 silly installInDir      '@blueprintjs/core': '^1.27.0',
-238 silly installInDir      '@blueprintjs/datetime': '^1.22.0',
-238 silly installInDir      '@types/jest': '^20.0.8',
-238 silly installInDir      '@types/node': '^8.0.28',
-238 silly installInDir      '@types/react-redux': '^5.0.8',
-238 silly installInDir      '@types/react-router-dom': '^4.0.7',
-238 silly installInDir      immutable: '^3.8.1',
-238 silly installInDir      moment: '^2.18.1',
-238 silly installInDir      'wea-rui': '^1.0.0',
-238 silly installInDir      react: '15.6.1',
-238 silly installInDir      'react-addons-css-transition-group': '^15.6.0',
-238 silly installInDir      'react-apollo': '^1.4.15',
-238 silly installInDir      'react-dom': '15.6.1',
-238 silly installInDir      'react-redux': '^5.0.6',
-238 silly installInDir      'react-router-dom': '^4.1.1',
-238 silly installInDir      recharts: '^1.0.0-apha.5',
-238 silly installInDir      redux: '^3.7.2',
-238 silly installInDir      'styled-components': '^2.1.2' } }
-239 silly installInDir writing tempJson { dependencies:
-239 silly installInDir    { '@blueprintjs/core': '^1.16.0',
-239 silly installInDir      '@blueprintjs/datetime': '^1.14.1',
-239 silly installInDir      '@types/node': '^7.0.13',
-239 silly installInDir      '@types/react-redux': '^4.4.39',
-239 silly installInDir      '@types/react-router-dom': '^4.0.4',
-239 silly installInDir      immutable: '^3.8.1',
-239 silly installInDir      moment: '^2.18.1',
-239 silly installInDir      'wea-rui': '^1.0.0',
-239 silly installInDir      react: '^15.5.4',
-239 silly installInDir      'react-addons-css-transition-group': '^15.5.2',
-239 silly installInDir      'react-dom': '^15.5.4',
-239 silly installInDir      'react-redux': '^5.0.4',
-239 silly installInDir      'react-router-dom': '^4.1.1',
-239 silly installInDir      recharts: '^0.22.4',
-239 silly installInDir      redux: '^3.6.0',
-239 silly installInDir      'styled-components': '^1.4.5',
-239 silly installInDir      '@types/classnames': '^0.0.32',
-239 silly installInDir      '@types/history': '^4.5.0',
-239 silly installInDir      '@types/prop-types': '^15.5.1',
-239 silly installInDir      '@types/react': '^15.0.22',
-239 silly installInDir      '@types/react-dom': '^0.14.23',
-239 silly installInDir      '@types/redux-actions': '^1.2.4',
-239 silly installInDir      '@types/webpack': '^2.2.15',
-239 silly installInDir      '@types/webpack-env': '^1.13.0',
-239 silly installInDir      'auth0-lock': '^10.15.1',
-239 silly installInDir      'awesome-typescript-loader': '^3.1.2',
-239 silly installInDir      classnames: '^2.2.5',
-239 silly installInDir      'css-loader': '^0.27.3',
-239 silly installInDir      express: '^4.15.2',
-239 silly installInDir      'extract-text-webpack-plugin': '^2.1.0',
-239 silly installInDir      'file-loader': '^0.10.1',
-239 silly installInDir      global: '^4.3.2',
-239 silly installInDir      'html-loader': '^0.4.5',
-239 silly installInDir      'html-webpack-plugin': '^2.28.0',
-239 silly installInDir      postcss: '^5.2.17',
-239 silly installInDir      'postcss-browser-reporter': '^0.5.0',
-239 silly installInDir      'postcss-cssnext': '^2.10.0',
-239 silly installInDir      'postcss-import': '^9.1.0',
-239 silly installInDir      'postcss-loader': '^1.3.3',
-239 silly installInDir      'postcss-reporter': '^3.0.0',
-239 silly installInDir      'postcss-url': '^5.1.2',
-239 silly installInDir      'prop-types': '^15.5.8',
-239 silly installInDir      'react-hot-loader': '^1.3.1',
-239 silly installInDir      'redux-actions': '^2.0.2',
-239 silly installInDir      'redux-observable': '^0.14.1',
-239 silly installInDir      rxjs: '^5.3.0',
-239 silly installInDir      'style-loader': '^0.16.1',
-239 silly installInDir      typescript: '^2.3.0',
-239 silly installInDir      'url-loader': '^0.5.8',
-239 silly installInDir      webpack: '^2.4.1',
-239 silly installInDir      'webpack-dev-server': '^2.4.4',
-239 silly installInDir      'webpack-hot-middleware': '^2.18.0' } }
-240 silly getExecOpts { cwd: 'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL' }
-241 silly installInDir [ 'npm', [ 'install' ] ]
-242 silly getExecOpts { cwd: 'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaRest' }
-243 silly installInDir [ 'npm', [ 'install' ] ]
-244 silly installInDir cleanup C:\myprojects\skul\betterWearea\WeaRea\packages\ReaGQL\package.json
-245 silly renameSync [ 'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\package.json.lerna_backup',
-245 silly renameSync   'C:\\myprojects\\skul\\betterWearea\\WeaRea\\packages\\ReaGQL\\package.json' ]
-246 verbose installed leaf reagql
-247 error execute callback with error
-248 error Error: Command failed: npm install
-248 error npm ERR! code E404
-248 error npm ERR! 404 Not Found: wea-rui@^1.0.0
-248 error
-248 error npm ERR! A complete log of this run can be found in:
-248 error npm ERR!     C:\Users\baranvoj\AppData\Roaming\npm-cache\_logs\2017-10-09T14_55_13_204Z-debug.log
-248 error
-248 error     at Promise.all.then.arr (C:\Users\baranvoj\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
-248 error     at <anonymous>
+11 silly runScript preinstall wea-rui
+12 silly wea-rui
+13 silly runScript preinstall reagql
+14 silly reagql
+15 silly runScript preinstall rearest
+16 silly rearest
+17 silly hasMatchingDependency reagql wea-rui
+18 silly hasMatchingDependency rearest wea-rui
+19 silly hasDependencyInstalled reagql react-scripts-ts
+20 silly dependencyIsSatisfied [ 'react-scripts-ts',
+20 silly dependencyIsSatisfied   '2.6.0',
+20 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+21 verbose dependencyIsSatisfied react-scripts-ts true
+22 silly hasDependencyInstalled rearest react-scripts-ts
+23 silly dependencyIsSatisfied [ 'react-scripts-ts',
+23 silly dependencyIsSatisfied   '2.6.0',
+23 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+24 verbose dependencyIsSatisfied react-scripts-ts false
+25 silly hasDependencyInstalled reagql @blueprintjs/core
+26 silly dependencyIsSatisfied [ '@blueprintjs/core',
+26 silly dependencyIsSatisfied   '^1.27.0',
+26 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+27 verbose dependencyIsSatisfied @blueprintjs/core true
+28 silly hasDependencyInstalled rearest @blueprintjs/core
+29 silly dependencyIsSatisfied [ '@blueprintjs/core',
+29 silly dependencyIsSatisfied   '^1.27.0',
+29 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+30 verbose dependencyIsSatisfied @blueprintjs/core true
+31 silly hasDependencyInstalled reagql @blueprintjs/datetime
+32 silly dependencyIsSatisfied [ '@blueprintjs/datetime',
+32 silly dependencyIsSatisfied   '^1.22.0',
+32 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+33 verbose dependencyIsSatisfied @blueprintjs/datetime true
+34 silly hasDependencyInstalled rearest @blueprintjs/datetime
+35 silly dependencyIsSatisfied [ '@blueprintjs/datetime',
+35 silly dependencyIsSatisfied   '^1.22.0',
+35 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+36 verbose dependencyIsSatisfied @blueprintjs/datetime true
+37 silly hasDependencyInstalled reagql @types/jest
+38 silly dependencyIsSatisfied [ '@types/jest',
+38 silly dependencyIsSatisfied   '^20.0.8',
+38 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+39 verbose dependencyIsSatisfied @types/jest true
+40 silly hasDependencyInstalled rearest @types/jest
+41 silly dependencyIsSatisfied [ '@types/jest',
+41 silly dependencyIsSatisfied   '^20.0.8',
+41 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+42 verbose dependencyIsSatisfied @types/jest false
+43 silly hasDependencyInstalled wea-rui @types/jest
+44 silly dependencyIsSatisfied [ '@types/jest',
+44 silly dependencyIsSatisfied   '^21.1.0',
+44 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+45 verbose dependencyIsSatisfied @types/jest true
+46 silly hasDependencyInstalled reagql @types/node
+47 silly dependencyIsSatisfied [ '@types/node',
+47 silly dependencyIsSatisfied   '^8.0.28',
+47 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+48 verbose dependencyIsSatisfied @types/node true
+49 silly hasDependencyInstalled rearest @types/node
+50 silly dependencyIsSatisfied [ '@types/node',
+50 silly dependencyIsSatisfied   '^8.0.28',
+50 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+51 verbose dependencyIsSatisfied @types/node false
+52 silly hasDependencyInstalled wea-rui @types/node
+53 silly dependencyIsSatisfied [ '@types/node',
+53 silly dependencyIsSatisfied   '^8.0.0',
+53 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+54 verbose dependencyIsSatisfied @types/node true
+55 silly hasDependencyInstalled reagql @types/react-redux
+56 silly dependencyIsSatisfied [ '@types/react-redux',
+56 silly dependencyIsSatisfied   '^5.0.8',
+56 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+57 verbose dependencyIsSatisfied @types/react-redux true
+58 silly hasDependencyInstalled rearest @types/react-redux
+59 silly dependencyIsSatisfied [ '@types/react-redux',
+59 silly dependencyIsSatisfied   '^5.0.8',
+59 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+60 verbose dependencyIsSatisfied @types/react-redux false
+61 silly hasDependencyInstalled reagql @types/react-router-dom
+62 silly dependencyIsSatisfied [ '@types/react-router-dom',
+62 silly dependencyIsSatisfied   '^4.0.7',
+62 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+63 verbose dependencyIsSatisfied @types/react-router-dom true
+64 silly hasDependencyInstalled rearest @types/react-router-dom
+65 silly dependencyIsSatisfied [ '@types/react-router-dom',
+65 silly dependencyIsSatisfied   '^4.0.7',
+65 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+66 verbose dependencyIsSatisfied @types/react-router-dom true
+67 silly hasDependencyInstalled reagql immutable
+68 silly dependencyIsSatisfied [ 'immutable',
+68 silly dependencyIsSatisfied   '^3.8.1',
+68 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+69 verbose dependencyIsSatisfied immutable true
+70 silly hasDependencyInstalled rearest immutable
+71 silly dependencyIsSatisfied [ 'immutable',
+71 silly dependencyIsSatisfied   '^3.8.1',
+71 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+72 verbose dependencyIsSatisfied immutable true
+73 silly hasDependencyInstalled reagql moment
+74 silly dependencyIsSatisfied [ 'moment',
+74 silly dependencyIsSatisfied   '^2.18.1',
+74 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+75 verbose dependencyIsSatisfied moment true
+76 silly hasDependencyInstalled rearest moment
+77 silly dependencyIsSatisfied [ 'moment',
+77 silly dependencyIsSatisfied   '^2.18.1',
+77 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+78 verbose dependencyIsSatisfied moment true
+79 silly hasDependencyInstalled reagql react
+80 silly dependencyIsSatisfied [ 'react',
+80 silly dependencyIsSatisfied   '15.6.1',
+80 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+81 verbose dependencyIsSatisfied react true
+82 silly hasDependencyInstalled rearest react
+83 silly dependencyIsSatisfied [ 'react',
+83 silly dependencyIsSatisfied   '15.6.1',
+83 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+84 verbose dependencyIsSatisfied react false
+85 silly hasDependencyInstalled wea-rui react
+86 silly dependencyIsSatisfied [ 'react',
+86 silly dependencyIsSatisfied   '15.6.1',
+86 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+87 verbose dependencyIsSatisfied react true
+88 silly hasDependencyInstalled reagql react-addons-css-transition-group
+89 silly dependencyIsSatisfied [ 'react-addons-css-transition-group',
+89 silly dependencyIsSatisfied   '^15.6.0',
+89 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+90 verbose dependencyIsSatisfied react-addons-css-transition-group true
+91 silly hasDependencyInstalled rearest react-addons-css-transition-group
+92 silly dependencyIsSatisfied [ 'react-addons-css-transition-group',
+92 silly dependencyIsSatisfied   '^15.6.0',
+92 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+93 verbose dependencyIsSatisfied react-addons-css-transition-group true
+94 silly hasDependencyInstalled reagql react-apollo
+95 silly dependencyIsSatisfied [ 'react-apollo',
+95 silly dependencyIsSatisfied   '^1.4.15',
+95 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+96 verbose dependencyIsSatisfied react-apollo true
+97 silly hasDependencyInstalled reagql react-dom
+98 silly dependencyIsSatisfied [ 'react-dom',
+98 silly dependencyIsSatisfied   '15.6.1',
+98 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+99 verbose dependencyIsSatisfied react-dom true
+100 silly hasDependencyInstalled rearest react-dom
+101 silly dependencyIsSatisfied [ 'react-dom',
+101 silly dependencyIsSatisfied   '15.6.1',
+101 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+102 verbose dependencyIsSatisfied react-dom false
+103 silly hasDependencyInstalled reagql react-redux
+104 silly dependencyIsSatisfied [ 'react-redux',
+104 silly dependencyIsSatisfied   '^5.0.6',
+104 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+105 verbose dependencyIsSatisfied react-redux true
+106 silly hasDependencyInstalled rearest react-redux
+107 silly dependencyIsSatisfied [ 'react-redux',
+107 silly dependencyIsSatisfied   '^5.0.6',
+107 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+108 verbose dependencyIsSatisfied react-redux true
+109 silly hasDependencyInstalled reagql react-router-dom
+110 silly dependencyIsSatisfied [ 'react-router-dom',
+110 silly dependencyIsSatisfied   '^4.1.1',
+110 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+111 verbose dependencyIsSatisfied react-router-dom true
+112 silly hasDependencyInstalled rearest react-router-dom
+113 silly dependencyIsSatisfied [ 'react-router-dom',
+113 silly dependencyIsSatisfied   '^4.1.1',
+113 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+114 verbose dependencyIsSatisfied react-router-dom true
+115 silly hasDependencyInstalled reagql recharts
+116 silly dependencyIsSatisfied [ 'recharts',
+116 silly dependencyIsSatisfied   '^1.0.0-apha.5',
+116 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+117 verbose dependencyIsSatisfied recharts true
+118 silly hasDependencyInstalled rearest recharts
+119 silly dependencyIsSatisfied [ 'recharts',
+119 silly dependencyIsSatisfied   '^1.0.0-apha.5',
+119 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+120 verbose dependencyIsSatisfied recharts false
+121 silly hasDependencyInstalled reagql redux
+122 silly dependencyIsSatisfied [ 'redux',
+122 silly dependencyIsSatisfied   '^3.7.2',
+122 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+123 verbose dependencyIsSatisfied redux true
+124 silly hasDependencyInstalled rearest redux
+125 silly dependencyIsSatisfied [ 'redux',
+125 silly dependencyIsSatisfied   '^3.7.2',
+125 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+126 verbose dependencyIsSatisfied redux true
+127 silly hasDependencyInstalled reagql styled-components
+128 silly dependencyIsSatisfied [ 'styled-components',
+128 silly dependencyIsSatisfied   '^2.1.2',
+128 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaGQL\\node_modules' ]
+129 verbose dependencyIsSatisfied styled-components true
+130 silly hasDependencyInstalled rearest styled-components
+131 silly dependencyIsSatisfied [ 'styled-components',
+131 silly dependencyIsSatisfied   '^2.1.2',
+131 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+132 verbose dependencyIsSatisfied styled-components false
+133 silly hasDependencyInstalled rearest rxjs
+134 silly dependencyIsSatisfied [ 'rxjs',
+134 silly dependencyIsSatisfied   '^5.3.0',
+134 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\node_modules' ]
+135 verbose dependencyIsSatisfied rxjs true
+136 silly hasDependencyInstalled wea-rui colors
+137 silly dependencyIsSatisfied [ 'colors',
+137 silly dependencyIsSatisfied   '^1.1.2',
+137 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+138 verbose dependencyIsSatisfied colors true
+139 silly hasDependencyInstalled wea-rui commitizen
+140 silly dependencyIsSatisfied [ 'commitizen',
+140 silly dependencyIsSatisfied   '^2.9.6',
+140 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+141 verbose dependencyIsSatisfied commitizen true
+142 silly hasDependencyInstalled wea-rui coveralls
+143 silly dependencyIsSatisfied [ 'coveralls',
+143 silly dependencyIsSatisfied   '^3.0.0',
+143 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+144 verbose dependencyIsSatisfied coveralls true
+145 silly hasDependencyInstalled wea-rui cross-env
+146 silly dependencyIsSatisfied [ 'cross-env',
+146 silly dependencyIsSatisfied   '^5.0.1',
+146 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+147 verbose dependencyIsSatisfied cross-env true
+148 silly hasDependencyInstalled wea-rui cz-conventional-changelog
+149 silly dependencyIsSatisfied [ 'cz-conventional-changelog',
+149 silly dependencyIsSatisfied   '^2.0.0',
+149 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+150 verbose dependencyIsSatisfied cz-conventional-changelog true
+151 silly hasDependencyInstalled wea-rui husky
+152 silly dependencyIsSatisfied [ 'husky',
+152 silly dependencyIsSatisfied   '^0.14.0',
+152 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+153 verbose dependencyIsSatisfied husky true
+154 silly hasDependencyInstalled wea-rui jest
+155 silly dependencyIsSatisfied [ 'jest',
+155 silly dependencyIsSatisfied   '^21.0.0',
+155 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+156 verbose dependencyIsSatisfied jest true
+157 silly hasDependencyInstalled wea-rui lint-staged
+158 silly dependencyIsSatisfied [ 'lint-staged',
+158 silly dependencyIsSatisfied   '^4.0.0',
+158 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+159 verbose dependencyIsSatisfied lint-staged true
+160 silly hasDependencyInstalled wea-rui lodash.camelcase
+161 silly dependencyIsSatisfied [ 'lodash.camelcase',
+161 silly dependencyIsSatisfied   '^4.3.0',
+161 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+162 verbose dependencyIsSatisfied lodash.camelcase true
+163 silly hasDependencyInstalled wea-rui prettier
+164 silly dependencyIsSatisfied [ 'prettier',
+164 silly dependencyIsSatisfied   '^1.4.4',
+164 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+165 verbose dependencyIsSatisfied prettier true
+166 silly hasDependencyInstalled wea-rui prompt
+167 silly dependencyIsSatisfied [ 'prompt',
+167 silly dependencyIsSatisfied   '^1.0.0',
+167 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+168 verbose dependencyIsSatisfied prompt true
+169 silly hasDependencyInstalled wea-rui replace-in-file
+170 silly dependencyIsSatisfied [ 'replace-in-file',
+170 silly dependencyIsSatisfied   '^3.0.0-beta.2',
+170 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+171 verbose dependencyIsSatisfied replace-in-file true
+172 silly hasDependencyInstalled wea-rui rimraf
+173 silly dependencyIsSatisfied [ 'rimraf',
+173 silly dependencyIsSatisfied   '^2.6.1',
+173 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+174 verbose dependencyIsSatisfied rimraf true
+175 silly hasDependencyInstalled wea-rui rollup
+176 silly dependencyIsSatisfied [ 'rollup',
+176 silly dependencyIsSatisfied   '^0.50.0',
+176 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+177 verbose dependencyIsSatisfied rollup true
+178 silly hasDependencyInstalled wea-rui rollup-plugin-commonjs
+179 silly dependencyIsSatisfied [ 'rollup-plugin-commonjs',
+179 silly dependencyIsSatisfied   'github:rollup/rollup-plugin-commonjs#bundled-v8.2.3',
+179 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+180 verbose dependencyIsSatisfied rollup-plugin-commonjs false
+181 silly hasDependencyInstalled wea-rui rollup-plugin-node-resolve
+182 silly dependencyIsSatisfied [ 'rollup-plugin-node-resolve',
+182 silly dependencyIsSatisfied   '^3.0.0',
+182 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+183 verbose dependencyIsSatisfied rollup-plugin-node-resolve true
+184 silly hasDependencyInstalled wea-rui rollup-plugin-sourcemaps
+185 silly dependencyIsSatisfied [ 'rollup-plugin-sourcemaps',
+185 silly dependencyIsSatisfied   '^0.4.2',
+185 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+186 verbose dependencyIsSatisfied rollup-plugin-sourcemaps true
+187 silly hasDependencyInstalled wea-rui semantic-release
+188 silly dependencyIsSatisfied [ 'semantic-release',
+188 silly dependencyIsSatisfied   '^8.0.0',
+188 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+189 verbose dependencyIsSatisfied semantic-release true
+190 silly hasDependencyInstalled wea-rui ts-jest
+191 silly dependencyIsSatisfied [ 'ts-jest',
+191 silly dependencyIsSatisfied   '^21.0.0',
+191 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+192 verbose dependencyIsSatisfied ts-jest true
+193 silly hasDependencyInstalled wea-rui ts-node
+194 silly dependencyIsSatisfied [ 'ts-node',
+194 silly dependencyIsSatisfied   '^3.0.6',
+194 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+195 verbose dependencyIsSatisfied ts-node true
+196 silly hasDependencyInstalled wea-rui tslint
+197 silly dependencyIsSatisfied [ 'tslint',
+197 silly dependencyIsSatisfied   '^5.4.3',
+197 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+198 verbose dependencyIsSatisfied tslint true
+199 silly hasDependencyInstalled wea-rui tslint-config-prettier
+200 silly dependencyIsSatisfied [ 'tslint-config-prettier',
+200 silly dependencyIsSatisfied   '^1.1.0',
+200 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+201 verbose dependencyIsSatisfied tslint-config-prettier true
+202 silly hasDependencyInstalled wea-rui tslint-config-standard
+203 silly dependencyIsSatisfied [ 'tslint-config-standard',
+203 silly dependencyIsSatisfied   '^6.0.0',
+203 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+204 verbose dependencyIsSatisfied tslint-config-standard true
+205 silly hasDependencyInstalled wea-rui typedoc
+206 silly dependencyIsSatisfied [ 'typedoc',
+206 silly dependencyIsSatisfied   '^0.8.0',
+206 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+207 verbose dependencyIsSatisfied typedoc true
+208 silly hasDependencyInstalled wea-rui typescript
+209 silly dependencyIsSatisfied [ 'typescript',
+209 silly dependencyIsSatisfied   '^2.3.4',
+209 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+210 verbose dependencyIsSatisfied typescript true
+211 silly hasDependencyInstalled wea-rui validate-commit-msg
+212 silly dependencyIsSatisfied [ 'validate-commit-msg',
+212 silly dependencyIsSatisfied   '^2.12.2',
+212 silly dependencyIsSatisfied   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules' ]
+213 verbose dependencyIsSatisfied validate-commit-msg true
+214 silly root dependencies []
+215 silly leaf dependencies {
+215 silly leaf dependencies   "reagql": [
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-scripts-ts@2.6.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@blueprintjs/core@^1.27.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@blueprintjs/datetime@^1.22.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/jest@^20.0.8",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/node@^8.0.28",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/react-redux@^5.0.8",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/react-router-dom@^4.0.7",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "immutable@^3.8.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "moment@^2.18.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react@15.6.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-addons-css-transition-group@^15.6.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-apollo@^1.4.15",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-dom@15.6.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-redux@^5.0.6",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-router-dom@^4.1.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "recharts@^1.0.0-apha.5",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "redux@^3.7.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "styled-components@^2.1.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     }
+215 silly leaf dependencies   ],
+215 silly leaf dependencies   "rearest": [
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-scripts-ts@2.6.0",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@blueprintjs/core@^1.27.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@blueprintjs/datetime@^1.22.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/jest@^20.0.8",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/node@^8.0.28",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/react-redux@^5.0.8",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/react-router-dom@^4.0.7",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "immutable@^3.8.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "moment@^2.18.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react@15.6.1",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-addons-css-transition-group@^15.6.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-dom@15.6.1",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-redux@^5.0.6",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react-router-dom@^4.1.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "recharts@^1.0.0-apha.5",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "redux@^3.7.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "styled-components@^2.1.2",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rxjs@^5.3.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     }
+215 silly leaf dependencies   ],
+215 silly leaf dependencies   "wea-rui": [
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/jest@^21.1.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "@types/node@^8.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "react@15.6.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "colors@^1.1.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "commitizen@^2.9.6",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "coveralls@^3.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "cross-env@^5.0.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "cz-conventional-changelog@^2.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "husky@^0.14.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "jest@^21.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "lint-staged@^4.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "lodash.camelcase@^4.3.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "prettier@^1.4.4",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "prompt@^1.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "replace-in-file@^3.0.0-beta.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rimraf@^2.6.1",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rollup@^0.50.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rollup-plugin-commonjs@github:rollup/rollup-plugin-commonjs#bundled-v8.2.3",
+215 silly leaf dependencies       "isSatisfied": false
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rollup-plugin-node-resolve@^3.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "rollup-plugin-sourcemaps@^0.4.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "semantic-release@^8.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "ts-jest@^21.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "ts-node@^3.0.6",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "tslint@^5.4.3",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "tslint-config-prettier@^1.1.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "tslint-config-standard@^6.0.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "typedoc@^0.8.0",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "typescript@^2.3.4",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     },
+215 silly leaf dependencies     {
+215 silly leaf dependencies       "dependency": "validate-commit-msg@^2.12.2",
+215 silly leaf dependencies       "isSatisfied": true
+215 silly leaf dependencies     }
+215 silly leaf dependencies   ]
+215 silly leaf dependencies }
+216 info Installing external dependencies
+217 verbose actions 2 actions, concurrency 4
+218 silly installInDir ReaRest [ 'react-scripts-ts@2.6.0',
+218 silly installInDir   '@blueprintjs/core@^1.27.0',
+218 silly installInDir   '@blueprintjs/datetime@^1.22.0',
+218 silly installInDir   '@types/jest@^20.0.8',
+218 silly installInDir   '@types/node@^8.0.28',
+218 silly installInDir   '@types/react-redux@^5.0.8',
+218 silly installInDir   '@types/react-router-dom@^4.0.7',
+218 silly installInDir   'immutable@^3.8.1',
+218 silly installInDir   'moment@^2.18.1',
+218 silly installInDir   'react@15.6.1',
+218 silly installInDir   'react-addons-css-transition-group@^15.6.0',
+218 silly installInDir   'react-dom@15.6.1',
+218 silly installInDir   'react-redux@^5.0.6',
+218 silly installInDir   'react-router-dom@^4.1.1',
+218 silly installInDir   'recharts@^1.0.0-apha.5',
+218 silly installInDir   'redux@^3.7.2',
+218 silly installInDir   'styled-components@^2.1.2',
+218 silly installInDir   'rxjs@^5.3.0' ]
+219 silly installInDir backup E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRest\package.json
+220 silly rename [ 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\package.json',
+220 silly rename   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest\\package.json.lerna_backup' ]
+221 silly installInDir ReaRUI [ '@types/jest@^21.1.0',
+221 silly installInDir   '@types/node@^8.0.0',
+221 silly installInDir   'react@15.6.1',
+221 silly installInDir   'colors@^1.1.2',
+221 silly installInDir   'commitizen@^2.9.6',
+221 silly installInDir   'coveralls@^3.0.0',
+221 silly installInDir   'cross-env@^5.0.1',
+221 silly installInDir   'cz-conventional-changelog@^2.0.0',
+221 silly installInDir   'husky@^0.14.0',
+221 silly installInDir   'jest@^21.0.0',
+221 silly installInDir   'lint-staged@^4.0.0',
+221 silly installInDir   'lodash.camelcase@^4.3.0',
+221 silly installInDir   'prettier@^1.4.4',
+221 silly installInDir   'prompt@^1.0.0',
+221 silly installInDir   'replace-in-file@^3.0.0-beta.2',
+221 silly installInDir   'rimraf@^2.6.1',
+221 silly installInDir   'rollup@^0.50.0',
+221 silly installInDir   'rollup-plugin-commonjs@github:rollup/rollup-plugin-commonjs#bundled-v8.2.3',
+221 silly installInDir   'rollup-plugin-node-resolve@^3.0.0',
+221 silly installInDir   'rollup-plugin-sourcemaps@^0.4.2',
+221 silly installInDir   'semantic-release@^8.0.0',
+221 silly installInDir   'ts-jest@^21.0.0',
+221 silly installInDir   'ts-node@^3.0.6',
+221 silly installInDir   'tslint@^5.4.3',
+221 silly installInDir   'tslint-config-prettier@^1.1.0',
+221 silly installInDir   'tslint-config-standard@^6.0.0',
+221 silly installInDir   'typedoc@^0.8.0',
+221 silly installInDir   'typescript@^2.3.4',
+221 silly installInDir   'validate-commit-msg@^2.12.2' ]
+222 silly installInDir backup E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRUI\package.json
+223 silly rename [ 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\package.json',
+223 silly rename   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\package.json.lerna_backup' ]
+224 silly installInDir writing tempJson { dependencies:
+224 silly installInDir    { 'react-scripts-ts': '2.6.0',
+224 silly installInDir      '@blueprintjs/core': '^1.27.0',
+224 silly installInDir      '@blueprintjs/datetime': '^1.22.0',
+224 silly installInDir      '@types/jest': '^20.0.8',
+224 silly installInDir      '@types/node': '^8.0.28',
+224 silly installInDir      '@types/react-redux': '^5.0.8',
+224 silly installInDir      '@types/react-router-dom': '^4.0.7',
+224 silly installInDir      immutable: '^3.8.1',
+224 silly installInDir      moment: '^2.18.1',
+224 silly installInDir      react: '15.6.1',
+224 silly installInDir      'react-addons-css-transition-group': '^15.6.0',
+224 silly installInDir      'react-dom': '15.6.1',
+224 silly installInDir      'react-redux': '^5.0.6',
+224 silly installInDir      'react-router-dom': '^4.1.1',
+224 silly installInDir      recharts: '^1.0.0-apha.5',
+224 silly installInDir      redux: '^3.7.2',
+224 silly installInDir      'styled-components': '^2.1.2',
+224 silly installInDir      rxjs: '^5.3.0' } }
+225 silly installInDir writing tempJson { dependencies:
+225 silly installInDir    { '@types/jest': '^21.1.0',
+225 silly installInDir      '@types/node': '^8.0.0',
+225 silly installInDir      react: '15.6.1',
+225 silly installInDir      colors: '^1.1.2',
+225 silly installInDir      commitizen: '^2.9.6',
+225 silly installInDir      coveralls: '^3.0.0',
+225 silly installInDir      'cross-env': '^5.0.1',
+225 silly installInDir      'cz-conventional-changelog': '^2.0.0',
+225 silly installInDir      husky: '^0.14.0',
+225 silly installInDir      jest: '^21.0.0',
+225 silly installInDir      'lint-staged': '^4.0.0',
+225 silly installInDir      'lodash.camelcase': '^4.3.0',
+225 silly installInDir      prettier: '^1.4.4',
+225 silly installInDir      prompt: '^1.0.0',
+225 silly installInDir      'replace-in-file': '^3.0.0-beta.2',
+225 silly installInDir      rimraf: '^2.6.1',
+225 silly installInDir      rollup: '^0.50.0',
+225 silly installInDir      'rollup-plugin-commonjs': 'github:rollup/rollup-plugin-commonjs#bundled-v8.2.3',
+225 silly installInDir      'rollup-plugin-node-resolve': '^3.0.0',
+225 silly installInDir      'rollup-plugin-sourcemaps': '^0.4.2',
+225 silly installInDir      'semantic-release': '^8.0.0',
+225 silly installInDir      'ts-jest': '^21.0.0',
+225 silly installInDir      'ts-node': '^3.0.6',
+225 silly installInDir      tslint: '^5.4.3',
+225 silly installInDir      'tslint-config-prettier': '^1.1.0',
+225 silly installInDir      'tslint-config-standard': '^6.0.0',
+225 silly installInDir      typedoc: '^0.8.0',
+225 silly installInDir      typescript: '^2.3.4',
+225 silly installInDir      'validate-commit-msg': '^2.12.2' } }
+226 silly getExecOpts { cwd: 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRest' }
+227 silly installInDir [ 'npm', [ 'install' ] ]
+228 silly getExecOpts { cwd: 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI' }
+229 silly installInDir [ 'npm', [ 'install' ] ]
+230 silly installInDir cleanup E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRUI\package.json
+231 silly renameSync [ 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\package.json.lerna_backup',
+231 silly renameSync   'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\package.json' ]
+232 verbose installed leaf wea-rui
+233 error execute callback with error
+234 error Error: Command failed: npm install
+234 error npm ERR! path E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRUI\node_modules\fsevents\node_modules\dashdash\node_modules
+234 error npm ERR! code EPERM
+234 error npm ERR! errno -4048
+234 error npm ERR! syscall scandir
+234 error npm ERR! Error: EPERM: operation not permitted, scandir 'E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRUI\node_modules\fsevents\node_modules\dashdash\node_modules'
+234 error npm ERR!  { Error: EPERM: operation not permitted, scandir 'E:\myprojects\WeaConPiComp\WeaRea\packages\ReaRUI\node_modules\fsevents\node_modules\dashdash\node_modules'
+234 error npm ERR!   stack: 'Error: EPERM: operation not permitted, scandir \'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'',
+234 error npm ERR!   errno: -4048,
+234 error npm ERR!   code: 'EPERM',
+234 error npm ERR!   syscall: 'scandir',
+234 error npm ERR!   path: 'E:\\myprojects\\WeaConPiComp\\WeaRea\\packages\\ReaRUI\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules' }
+234 error npm ERR!
+234 error npm ERR! Please try running this command again as root/Administrator.
+234 error
+234 error npm ERR! A complete log of this run can be found in:
+234 error npm ERR!     C:\Users\Farmas\AppData\Roaming\npm-cache\_logs\2017-10-09T18_45_43_539Z-debug.log
+234 error
+234 error     at Promise.all.then.arr (C:\Users\Farmas\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:236:11)
+234 error     at <anonymous>
