@@ -7,7 +7,7 @@ export interface StoreState {
 }
 export const client = new ApolloClient({
     networkInterface: createNetworkInterface({
-        uri: 'http://localhost:5005/graphql',
+        uri: 'http://localhost:6004/graphql',
     }),
 });
 

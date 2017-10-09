@@ -11,6 +11,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
 import DayDetail from './DayDetail/index';
 import { HelloWorld } from 'wea-rui';
+
 const Container: any = styled.div`padding: 2em;`;
 const Bodys: any = styled.div`
   background-color: ${(props: any) => (props.dark ? '#293742' : '')};
@@ -62,7 +63,7 @@ class comp extends React.Component<AppInterface, any> {
                 className="pt-button pt-minimal pt-icon-moon"
               />
             </div>
-            <HelloWorld/>
+            <HelloWorld hello={'HELLOOOO'} who={'WeaconuPIeu'}/>
           </nav>
           <Container className={this.props.themeStyle}>
             <Switch>

@@ -1,9 +1,9 @@
 {
   "name": "wea-rui",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "",
   "keywords": [],
-  "main": "dist/wea-rui.umd.js",
+  "main": "dist/wea-rui.es5.js",
   "module": "dist/wea-rui.es5.js",
   "typings": "dist/types/wea-rui.d.ts",
   "files": [
