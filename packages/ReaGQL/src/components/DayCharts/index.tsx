@@ -24,9 +24,9 @@ const mapToChartData = (hours: Map<number, IHour>) => {
 const StyledCharts = styled.div`position: absolute;`;
 const StyledOneChart: any = styled.div`
   position:absolute;
-  top:${(props: any) => props.top}px
-  left:${(props: any) => props.left || '0'}px
-  right:${(props: any) => props.right || '0'}px
+  top:${(props: any) => props.top}px;
+  left:${(props: any) => props.left || '0'}px;
+  right:${(props: any) => props.right || '0'}px;
 `;
 const zIndexStyle = { zIndex: 9000 };
 export const DayCharts = (props: { hours: Map<number, IHour> }) => (

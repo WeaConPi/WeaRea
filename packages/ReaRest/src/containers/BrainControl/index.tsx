@@ -5,7 +5,7 @@ import * as actions from "./actions";
 import { RootState } from "../../reducers";
 import { IBrainControlReducer } from "./reducer";
 import * as React from "react";
-import { PredictionOverview } from "../../components/PredictionOverview/index";
+import { PredictionOverview } from "wea-rui";
 import styled  from "styled-components";
 
 interface IAppProps extends IBrainControlReducer {
