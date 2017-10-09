@@ -1,3 +1,8 @@
 import React from 'react';
-
-export const HelloWorld=({hello,who})=><div>{hello} - {who} </div>
+import { DayDetailInfo } from './components/DayDetailInfo';
+export const HelloWorld = ({ hello, who }) => (
+  <div>
+    {hello} - {who}{'DUDEd asd hell o  '}
+  </div>
+);
+export { DayDetailInfo };

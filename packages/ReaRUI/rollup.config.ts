@@ -21,7 +21,18 @@ export default {
   },
   plugins: [
     // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
-    commonjs(),
+    commonjs({
+      include: [
+        'node_modules/**'
+      ],
+      exclude: [
+        'node_modules/process-es6/**'
+      ],
+      namedExports: {
+        'node_modules/react/react.js': ['Children', 'Component', 'PropTypes', 'createElement'],
+        'node_modules/react-dom/index.js': ['render']
+      }
+    }),
     // Allow node_modules resolution, so you can use 'external' to control
     // which external modules to include in the bundle
     // https://github.com/rollup/rollup-plugin-node-resolve#usage

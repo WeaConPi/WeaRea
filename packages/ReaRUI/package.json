@@ -1,9 +1,9 @@
 {
   "name": "wea-rui",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "",
   "keywords": [],
-  "main": "dist/wea-rui.es5.js",
+  "main": "compiled/wea-rui.js",
   "module": "dist/wea-rui.es5.js",
   "typings": "dist/types/wea-rui.d.ts",
   "files": [
@@ -76,6 +76,7 @@
   "devDependencies": {
     "@types/jest": "^21.1.0",
     "@types/node": "^8.0.0",
+    "@types/react": "^16.0.10",
     "colors": "^1.1.2",
     "commitizen": "^2.9.6",
     "coveralls": "^3.0.0",
@@ -104,6 +105,9 @@
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
-    "react": "15.6.1"
+    "@blueprintjs/datetime": "^1.22.0",
+    "moment": "^2.18.1",
+    "react": "15.6.1",
+    "styled-components": "^2.1.2"
   }
 }

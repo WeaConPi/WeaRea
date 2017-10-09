@@ -5,7 +5,7 @@ import { RootState } from "../../reducers";
 import { IDayDetailReducer as ReducerInterface } from "./reducer";
 import * as React from "react";
 import { HourDetail } from "../../components/HourDetail/index";
-import { DayDetailInfo } from "../../components/DayDetailInfo/index";
+import { DayDetailInfo } from "wea-rui";
 import * as moment from "moment";
 import { DayCharts } from "../../components/DayCharts/index";
 import styled from "styled-components";

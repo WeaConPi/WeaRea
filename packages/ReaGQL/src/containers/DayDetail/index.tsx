@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DayDetailInfo } from '../../components/DayDetailInfo/index';
+import { DayDetailInfo } from 'wea-rui';
 import styled from 'styled-components';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
