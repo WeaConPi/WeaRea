@@ -63,7 +63,7 @@ class comp extends React.Component<AppInterface, any> {
                 className="pt-button pt-minimal pt-icon-moon"
               />
             </div>
-            <HelloWorld hello={'HELLOOOO'} who={'WeaconuPIeu'}/>
+            <HelloWorld hello={'HELLOOOO'} who={'ReaGQL'}/>
           </nav>
           <Container className={this.props.themeStyle}>
             <Switch>

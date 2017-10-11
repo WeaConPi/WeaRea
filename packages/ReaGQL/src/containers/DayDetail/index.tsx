@@ -8,14 +8,17 @@ import * as moment from 'moment';
 import { DayCharts } from 'wea-rui';
 import { IHour } from '../../models/Hour';
 import { Map } from 'immutable';
+import { connect } from 'react-redux';
+import { selectDay } from '../actions';
+import { StoreState } from '../../store';
+import { IAppReducer } from '../reducer';
 
 const StyledBody = styled.div`display: flex;`;
-
 class comp extends React.Component<any, any> {
   state = {
     selectedHour: 0,
   };
-  handleChangeDate = newDate => console.log(moment(newDate));
+  handleChangeDate = newDate => this.props.selectDay(moment(newDate));
 
   handleHourChange = hour => () => this.setState({ selectedHour: hour });
 
@@ -37,13 +40,13 @@ class comp extends React.Component<any, any> {
 
   render() {
     const { data } = this.props;
+    console.log(data);
     if (data.loading) {
       return <div>Loading..</div>;
     }
-    console.log(this.props);
     let mappedHours = Map() as Map<number, IHour>;
 
-    if (data.day.hours) {
+    if (!data.error) {
       mappedHours = Map(data.day.hours.map(hour => [hour.number, hour])) as Map<
         number,
         IHour
@@ -56,32 +59,31 @@ class comp extends React.Component<any, any> {
           day={data.day}
           handleDateChange={this.handleChangeDate}
         />
-        <StyledBody>
-          <div>
-            <br />
-            {this.renderLine(mappedHours)}
-            <HourDetail
-              loading={false}
-              hour={mappedHours.get(this.state.selectedHour)}
-            />
-          </div>
-          <div>
-            <h2>Daily summary </h2>
-            <DayCharts hours={mappedHours} />
-          </div>
-        </StyledBody>
+        {data.error ? null : (
+          <StyledBody>
+            <div>
+              <br />
+              {this.renderLine(mappedHours)}
+              <HourDetail
+                loading={false}
+                hour={mappedHours.get(this.state.selectedHour)}
+              />
+            </div>
+            <div>
+              <h2>Daily summary </h2>
+              <DayCharts hours={mappedHours} />
+            </div>
+          </StyledBody>
+        )}
       </div>
     );
   }
 }
 
-export default graphql(
+const withData = graphql(
   gql`
     {
-      day(
-        buildingId: "58ed211899c6b9a3b02e8acd"
-        date: "2017-04-18T00:00:00.000Z"
-      ) {
+      day(buildingId: "58ed211899c6b9a3b02e8acd", date: $activeDay) {
         date
         hours {
           number
@@ -107,9 +109,21 @@ export default graphql(
     }
   `,
   {
-    options: props => {
-      console.log(props);
-      return {};
+    options: ({ activeDay }: IAppReducer) => {
+      const actif = `${activeDay.format('YYYY-MM-DD')}T00:00:00.000Z`;
+      console.log(actif);
+      return {
+        variables: {
+          activeDay: actif,
+        },
+      };
     },
   },
 )(comp);
+
+export default connect(
+  (state: StoreState) => ({
+    activeDay: state.appReducer.activeDay,
+  }),
+  { selectDay },
+)(withData as any);

@@ -9,9 +9,9 @@ export const fetchDataEpic = (action, store) =>
   action.ofType(FETCH_DAY_BY_DATE)
     .switchMap(action =>
       Observable.ajax(
-        doIt(hosts.weaper, `api/days/findOne?filter=${`{"where":{"date":"${
+        doIt(hosts.weaper, `api/days/findOne?filter=${`{"date":"${
           action.date.format("YYYY-MM-DD")}T00:00:00.000Z", "buildingId":"${
-          BuildingID}"}}`}`, 'GET'))
+          BuildingID}"}`}`, 'GET'))
         .switchMap(({response}) => [{
             type: `${FETCH_DAY_BY_DATE}_FULFILLED`,
             response
@@ -30,7 +30,7 @@ export const fetchHoursForDayEpic = (action, store) =>
     .filter(action => action.dayId)
     .switchMap(action =>
       Observable.ajax(
-        doIt(hosts.weaper, `api/hours?filter={"where":{"dayId":"${action.dayId}"}}`, 'GET'))
+        doIt(hosts.weaper, `api/hours?filter={"dayId":"${action.dayId}"}`, 'GET'))
         .map(({response}) => ({
             type: `${FETCH_HOURS_FOR_DAY}_FULFILLED`,
             response
