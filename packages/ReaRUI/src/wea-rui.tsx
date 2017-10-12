@@ -7,8 +7,7 @@ import { PredictionOverview } from './components/PredictionOverview';
 import { SensorOverview } from './components/SensorOverview';
 export const HelloWorld = ({ hello, who }) => (
   <div>
-    {hello} - {who}
-    {'DUDEd asd hell o  '}
+    {hello} - {who} - jsut sayn
   </div>
 );
 export {

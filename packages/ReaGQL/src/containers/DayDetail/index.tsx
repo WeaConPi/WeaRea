@@ -47,10 +47,11 @@ class comp extends React.Component<any, any> {
     let mappedHours = Map() as Map<number, IHour>;
 
     if (!data.error) {
-      mappedHours = Map(data.day.hours.map(hour => [hour.number, hour])) as Map<
-        number,
-        IHour
-      >;
+      try {
+        mappedHours = Map(
+          data.day.hours.map(hour => [hour.number, hour]),
+        ) as Map<number, IHour>;
+      } catch (e) {}
     }
 
     return (
@@ -82,7 +83,7 @@ class comp extends React.Component<any, any> {
 
 const withData = graphql(
   gql`
-    {
+    query($activeDay: String) {
       day(buildingId: "58ed211899c6b9a3b02e8acd", date: $activeDay) {
         date
         hours {
