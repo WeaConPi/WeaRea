@@ -1,0 +1,43 @@
+{
+  "name": "rearest",
+  "version": "1.0.0",
+  "description": "React interface for WeaConPi",
+  "repository": "https://github.com/WeaConPi/WeaRea.git",
+  "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "homepage": ".",
+  "devDependencies": {
+    "react-scripts-ts": "2.6.0"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^1.27.0",
+    "@blueprintjs/datetime": "^1.22.0",
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28",
+    "@types/react-redux": "^5.0.8",
+    "@types/react-router-dom": "^4.0.7",
+    "immutable": "^3.8.1",
+    "moment": "^2.18.1",
+    "wea-rui":"^1.0.0",
+    "react": "15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.1",
+    "react-scripts-ts": "2.6.0",
+    "recharts": "^1.0.0-apha.5",
+    "redux": "^3.7.2",
+    "redux-observable":"^0.16.0",
+    "rxjs": "^5.3.0",
+    "typescript": "^2.5.3",
+    "styled-components": "^2.1.2"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
+
