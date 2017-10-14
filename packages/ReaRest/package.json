@@ -1,14 +1,16 @@
 {
   "name": "rearest",
   "version": "1.0.0",
-  "description": "React interface for WeaConPi",
-  "repository": "https://github.com/WeaConPi/WeaRea.git",
   "author": "Vojtěch Baránek <vojtabaranek@gmail.com>",
   "license": "MIT",
   "private": true,
   "homepage": ".",
   "devDependencies": {
-    "react-scripts-ts": "2.6.0"
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.34",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "react-scripts-ts": "2.7.0"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.27.0",
@@ -34,10 +36,9 @@
     "styled-components": "^2.1.2"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts-ts start",
+    "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   }
 }
-

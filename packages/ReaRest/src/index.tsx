@@ -8,9 +8,9 @@ const store = configureStore();
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root') as HTMLElement,
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('root') as HTMLElement,
 );
 registerServiceWorker();
