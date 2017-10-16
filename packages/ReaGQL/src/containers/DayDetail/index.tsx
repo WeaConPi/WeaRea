@@ -40,7 +40,6 @@ class comp extends React.Component<any, any> {
 
   render() {
     const { data } = this.props;
-    console.log(data);
     if (data.loading) {
       return <div>Loading..</div>;
     }

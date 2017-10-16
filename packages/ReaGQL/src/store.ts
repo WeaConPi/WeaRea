@@ -7,7 +7,7 @@ export interface StoreState {
 }
 export const client = new ApolloClient({
     networkInterface: createNetworkInterface({
-        uri: 'https://weagql.herokuapp.com/graphql',
+        uri: 'http://localhost:6004/graphql',
     }),
 });
 

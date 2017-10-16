@@ -7,13 +7,13 @@ export interface IAppReducer {
   customStyle: string;
 }
 const initialState: IAppReducer = {
-  themeStyle: 'pt-dark pt-card',
+  themeStyle: 'pt-card',
   customStyle: 'backgroundColor:#293742',
 }
 export const appReducer = (state = initialState, action): IAppReducer => {
   switch (action.type) {
     case APP_TOGGLE_THEME: {
-      const theme = state.themeStyle ? '' : 'pt-dark pt-card'
+      const theme = state.themeStyle ? '' : ' pt-card'
       const style = state.customStyle ? '' : 'backgroundColor:#293742'
       return {
         ...state,

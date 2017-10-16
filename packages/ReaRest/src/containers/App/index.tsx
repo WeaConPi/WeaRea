@@ -36,7 +36,7 @@ class comp extends React.Component <IAppProps, any> {
   render() {
     return (
       <BrowserRouter>
-        <Bodys className={this.props.themeStyle} dark={this.props.themeStyle}>
+        <Bodys>
           <nav className="pt-navbar ">
             <div className="pt-navbar-group pt-align-left">
               <div className="pt-navbar-heading">WeaConPi</div>
