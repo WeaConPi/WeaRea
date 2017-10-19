@@ -7,7 +7,7 @@
 /coverage
 
 # production
-
+/src/network-local.ts
 
 # misc
 .DS_Store

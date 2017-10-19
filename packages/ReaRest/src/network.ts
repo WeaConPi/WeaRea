@@ -1,11 +1,9 @@
-export const weaPerHost = process.env.weaper || ''
-export const weaCoreHost = process.env.weacore ||  'http://localhost:4000';
-export const weaGqlHost = process.env.weagql ||  'http://localhost:6004';
+import { privateHosts } from "./network-local";
 
 export const hosts = {
-  weaper: weaPerHost,
-  weacore: weaCoreHost,
-  weagql: weaGqlHost,
+  weaper: privateHosts.weaper,
+  weacore: privateHosts.weacore,
+  weagql: privateHosts.weagql,
 };
 
 const defaultHeader = (json, body) => ({
