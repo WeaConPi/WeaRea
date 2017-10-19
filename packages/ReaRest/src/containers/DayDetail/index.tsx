@@ -57,6 +57,7 @@ class comp extends React.Component<IAppProps, any> {
         <DayDetailInfo
           day={this.props.day}
           handleDateChange={this.handleChangeDate}
+          isLoading={this.props.loading}
         />
         <StyledBody>
           <div>

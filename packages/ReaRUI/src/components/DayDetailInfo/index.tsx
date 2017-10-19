@@ -13,18 +13,55 @@ const StyledDay = styled.div`
 export const DayDetailInfo = (props: {
   day: IDay;
   handleDateChange: (newDate: any) => void;
+  isLoading: boolean;
 }) => (
-  <StyledDay>
-    <DateInput onChange={props.handleDateChange} />
-    {props.day ? (
+  <div>
+    {props.isLoading ? (
+      <div>Loading data...</div>
+    ) : props.day ? (
       <div>
-        {props.day.note ? (
-          `Note for ${moment(props.day.date).format('YYYY-MM-DD')} is ${props
-            .day.note}`
-        ) : (
-          `There is no note for ${moment(props.day.date).format('YYYY-MM-DD')}`
-        )}
+        <StyledDay>
+          <StyledDay>
+            <button
+              className={`pt-button `}
+              onClick={() =>
+                props.handleDateChange(
+                  new Date().setDate(new Date(props.day.date).getDate() - 1),
+                )}
+            >
+              {`<`}
+            </button>
+            <DateInput
+              value={new Date(props.day.date)}
+              onChange={props.handleDateChange}
+            />
+            <button
+              className={`pt-button `}
+              onClick={() =>
+                props.handleDateChange(
+                  new Date().setDate(new Date(props.day.date).getDate() + 1),
+                )}
+            >
+              {`>`}
+            </button>
+          </StyledDay>
+          {props.day ? (
+            <div>
+              {props.day.note ? (
+                `Note for ${moment(props.day.date).format(
+                  'YYYY-MM-DD',
+                )} is ${props.day.note}`
+              ) : (
+                `There is no note for ${moment(props.day.date).format(
+                  'YYYY-MM-DD',
+                )}`
+              )}
+            </div>
+          ) : null}
+        </StyledDay>
       </div>
-    ) : null}
-  </StyledDay>
+    ) : (
+      <DateInput value={new Date()} onChange={props.handleDateChange} />
+    )}
+  </div>
 );

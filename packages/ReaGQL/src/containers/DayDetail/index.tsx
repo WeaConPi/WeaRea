@@ -40,9 +40,7 @@ class comp extends React.Component<any, any> {
 
   render() {
     const { data } = this.props;
-    if (data.loading) {
-      return <div>Loading..</div>;
-    }
+
     let mappedHours = Map() as Map<number, IHour>;
 
     if (!data.error) {
@@ -52,20 +50,22 @@ class comp extends React.Component<any, any> {
         ) as Map<number, IHour>;
       } catch (e) {}
     }
-
     return (
       <div>
         <DayDetailInfo
           day={data.day}
           handleDateChange={this.handleChangeDate}
+          isLoading={data.loading}
         />
-        {data.error ? null : (
+        {data.error ? (
+          <div>Something went wrong select new date.</div>
+        ) : (
           <StyledBody>
             <div>
               <br />
               {this.renderLine(mappedHours)}
               <HourDetail
-                loading={false}
+                loading={data.loading}
                 hour={mappedHours.get(this.state.selectedHour)}
               />
             </div>
@@ -111,7 +111,6 @@ const withData = graphql(
   {
     options: ({ activeDay }: IAppReducer) => {
       const actif = `${activeDay.format('YYYY-MM-DD')}T00:00:00.000Z`;
-      console.log(actif);
       return {
         variables: {
           activeDay: actif,
